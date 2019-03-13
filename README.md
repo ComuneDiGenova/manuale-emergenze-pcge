@@ -4,7 +4,7 @@ Manuale del nuovo sistema di Gestione Emergenze della Protezione Civile di Genov
 
 ## Descrizione del manuale
 Questo manuale è stato redatto sulla base delle *Linee guida di design per i servizi digitali della PA* in formato reStructredText.
-[Le linee guida per il design dei servizi digitali della Pubblica Amministrazione](http://design-italia.readthedocs.io/it/stable/index.html) 
+[Le linee guida per il design dei servizi digitali della Pubblica Amministrazione](http://design-italia.readthedocs.io/it/stable/index.html) usando stili forniti dal [repository Github release 2019.1](https://github.com/italia/design-linee-guida-docs)
 Si tratta di uno strumento di lavoro per la Pubblica Amministrazione che serve ad orientare la progettazione di ambienti digitali fornendo indicazioni relative al *service design*, alla *user research*, al *content design* e alla *user interface*. 
 
 I contenuti del manuale linee guida sono scritti in file .rst e possono essere aggiornati via GitHub. Qui è disponibile una [guida alla sintassi RST](http://docutils.sourceforge.net/docs/user/rst/quickref.html).
