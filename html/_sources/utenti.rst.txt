@@ -1,0 +1,15 @@
+Funzionalità di gestione utenti
+================================
+
+Si tratta di quelle funzionalità utili per:
+* per i soli amministratori di sistema, creare nuovi utenti esterni;
+* per i soli amministratori di sistema, assegnare permessi a:
+    * utenti esterni
+    * dipendenti
+* per i soli amministratori di sistema, gestire i contatti a cui notificare le mail
+
+
+
+
+Funzionalità di gestione utenti (amministratore di sistema)
+-------------------------------------------------------------

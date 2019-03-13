@@ -1,0 +1,21 @@
+Funzionalità di gestione evento
+===============================
+
+
+Nuovo evento
+------------
+
+
+Tipo di evento
+-----------------
+
+
+Gestione evento in corso
+------------------------
+
+
+
+
+Gestione eventi in chiusura
+---------------------------
+

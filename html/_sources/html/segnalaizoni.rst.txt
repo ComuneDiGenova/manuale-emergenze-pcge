@@ -1,0 +1,10 @@
+Funzionalità legate alle segnalazioni
+======================================
+
+
+Creazione nuova segnalazione
+-----------------------------
+
+La nuova segnalazione, così come presidi e provvedimenti cautelari, può essere creata solo con un evento in corso
+
+.. image:: img/lno_segnalazioni.png

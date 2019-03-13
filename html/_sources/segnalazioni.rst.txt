@@ -1,0 +1,58 @@
+Gestione segnalazioni
+=========================
+
+Nuova segnalazione
+-------------------------
+
+Per inserire una nuova segnalazione è necessario cliccare sul menù a sinistra:
+Gestione delle segnalazioni |rarr| Nuova segnalazione
+
+
+Possono essere ricevute da quasi tutti i profili utente ed inseriti a sistema purché siano correttamente georeferenziate:
+I campi indicati con l'asterisco sono quelli obbligatori e vanno necessariamentre inseriti nel caso in cui si voglia inserire a sistema una segnalazione,
+tuttavia si consiglia il completamento di tuti i campi in cui si vogliano aggiungere informazioni aggiuntive.
+
+Generalità del segnalante
+''''''''''''''''''''''''''
+
+Nella prima sezione vanno indicate le generalità del segnalante:
+* Nome se conosciuto, altrimenti *Anonimo*
+* Telefono
+* Tipologia di segnalante da scegliere con un menù a tendina
+* Eventuali note, quali per esempio giudizi sull'ansia/attendibilità del segnalante
+
+
+Evento e tipologia criticità
+'''''''''''''''''''''''''''''
+Proseguendo bisogna indicare l'evento a cui si riferisce la segnalazione.
+Nel caso in cui ce ne sia più di uno attivo scegliere l'evento tramite l'apposito menù a tendina.
+
+Quindi è necesssario:
+* specificare la tipologia di criticità tra quelle proposte nel menù a tendina
+* aggiungere una descrizione ulteriore dell'evento (non necessario specificare qua la localizzazione)
+* specificare se ci sono persone a rischio
+
+
+Georeferenziazione della segnalazione
+''''''''''''''''''''''''''''''''''''''
+A questo punto si arriva alla sezione della **georeferenziazione** che prevede 3 possibilità fra loro esclusive.
+	* Tramite civico
+	* Tramite punto su mappa
+	* Tramite coordinate note
+Prima di tutto è necessario scegliere una modalità selezionando una fra le 3 caselle di controllo previste.
+
+immagine
+
+Una volta selezionata per esempio l'opzione *tramite civico* verranno automaticamente attivati i menù a tendina per la scelta
+della via e dei civici corrispondenti pescando dal DB topocartografico del Comune di Genova. In questo caso la mappa non serve
+a nulla.
+
+Selezionando invece la modalità *tramite mappa* i menù a tendina per la scelta della via sono disabilitati e si dovrà posizionare
+un puntatore sulla mappa. E' possibile effettuare uno zoom automatico sull'area di interesse attraverso il tasto in alto a sinistra
+con una lente
+
+immagine ricerca
+
+La terza ed ultima opzione *tramire coordinate note* è ovviamente quella che si userà meno frequentemente in quanto prevede che vengano
+fornite dal segnalante le coordinate in gradi decimallo (latitudine / longitudine), ad esempio tramite invio della posizione tramite servizio
+di posizionamento (whatsapp, telegram, geosms, etc).
