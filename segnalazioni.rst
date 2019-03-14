@@ -44,26 +44,40 @@ Quindi è necesssario:
 Georeferenziazione della segnalazione
 ''''''''''''''''''''''''''''''''''''''
 A questo punto si arriva alla sezione della **georeferenziazione** che prevede 3 possibilità fra loro esclusive.
+
 	* Tramite civico
 	* Tramite punto su mappa
 	* Tramite coordinate note
+
+
+.. image::  img/modalita_geolocalizzazione.png
+
 Prima di tutto è necessario scegliere una modalità selezionando una fra le 3 caselle di controllo previste.
 
-immagine
 
-Una volta selezionata per esempio l'opzione *tramite civico* verranno automaticamente attivati i menù a tendina per la scelta
+
+
+
+Una volta selezionata per esempio l'opzione *tramite civico* si attivano automaticamente i menù a tendina per la scelta
 della via e dei civici corrispondenti pescando dal DB topocartografico del Comune di Genova. In questo caso la mappa non serve
-a nulla.
+a nulla e infatti di default rimane chius).
 
-Selezionando invece la modalità *tramite mappa* i menù a tendina per la scelta della via sono disabilitati e si dovrà posizionare
-un puntatore sulla mappa. E' possibile effettuare uno zoom automatico sull'area di interesse attraverso il tasto in alto a sinistra
-con una lente
+Selezionando invece la modalità *tramite mappa* i menù a tendina per la scelta della via restano disabilitati e si
+apre la mappa su cui l'utente dovrà posizionare un puntatore.
 
-immagine ricerca
+.. image::  img/ricerca_localita.png
+
+E' possibile effettuare una ricerca sull'area di interesse per parole chiave attraverso il tasto in alto a sinistra
+con una lente come mostrato nell'immagine seguente.
+
+
+
+
 
 La terza ed ultima opzione *tramire coordinate note* è ovviamente quella che si userà meno frequentemente in quanto prevede che vengano
 fornite dal segnalante le coordinate in gradi decimali (latitudine / longitudine), ad esempio tramite invio della posizione tramite servizio
 di posizionamento (whatsapp, telegram, geosms, etc).
+
 
 Infine è possibile specificare ulteriori indicazioni utili a localizzare al meglio la segnalazione
 (es. nei pressi della fermata dell'autobus XX direzione XXX, nei pressi del
@@ -72,6 +86,9 @@ palo della luce con codice xxxx, etc.)
 
 Invio della segnalazione
 ''''''''''''''''''''''''''''''''''''''
+
+.. image::  img/invio_segnalazione.png
+
 Una volta completata la fondamentale fase di georeferenziazione della segnalazione
 è infine necessario cliccare sul tasto *Invia la segnalazione* presente a fondo pagina
 
@@ -86,7 +103,7 @@ l'utente della presenza di segnalazioni non ancora prese in carico.
 
 Il flusso con cui avviene la gestione delle segnalazioni è il seguente:
 
-.. image:: img/schema_segnalazioni.png
+.. image:: img/iter_segnalazioni.png
 
 
 Localizzazione altre segnalazioni nelle vicinanze e presa in carico
@@ -94,8 +111,22 @@ Localizzazione altre segnalazioni nelle vicinanze e presa in carico
 In generale il sistema segnala la presenza di altre segnalazioni nelle
 vicinanze (stesso civico e/o entro un raggio di 200 m dalla nuova segnalazione).
 
+
+Nessuna segnalazione nelle vicinanze
+*****************************************
+.. image:: img/vicino_no.png
+
 Se non ci sono segnalazioni comparirà un unico tasto attraverso il quale è possibile
 elaborare la segnalazione prendendola in carico oppure, almeno nel caso di enti
 periferici quali *municipi* o *distretti di PM* cedere la titolarità della segnalazione
 alla corrispondente centrale operativa (*Centrale di PC* per i municipi e *Centrale COA*
-per i distretti di PM)
+per i distretti di PM).
+
+
+Altra segnalazione nelle vicinanze
+*****************************************
+.. image:: img/vicino_si.png
+
+Qualora invece ci siano segnalazioni nelle vicinanze è possibile elaborare la segnalazione
+come se fosse una nuova segnalazione o unire le segnalazioni in modo da
+ottimizzare il flusso di lavoro.

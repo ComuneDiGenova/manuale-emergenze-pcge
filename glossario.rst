@@ -1,7 +1,8 @@
 Glossario
 ==================
 
-
+Evento
+--------------------
 L'**evento** è alla base del sistema.
 Può essere previsto o in atto ed è la condizione necessaria per usare il sistema (inserire segnalazoni, creare sopralluoghi, etc.)
 Con l'apertura di un evento si possono iniziare ad inserire informazioni a sistema, in assenza di un evento in corso non ? possibile utilizzare l'applicativo.
@@ -18,9 +19,10 @@ gli eventi possono essere aperti in previsione di un'allerta diramata dalla PC r
 In tal caso, un evento conterr? spesso diverse 
 * **allerte** corrisponde a un avviso istituzionale (proveniente da ARPAL e Regione Liguria) 
 che preannuncia il verificarsi di una situazione critica. possono essere
-	* gialla
-	* arancione
-	* rossa
+
+* gialla
+* arancione
+* rossa
 
 
 Le **Fasi Operative Comunali (F.O.C.)** : spesso corrispondono alle allerte, ma non necessariamente
@@ -35,6 +37,7 @@ Segnalazione
 ---------------------
 
 Le segnalazioni: possono pervenire dai cittadini:
+
 * tramite numero verde comunale (Centrale PC)
 * tramite numero della PM (Centrale COA)
 * chiamando/recandosi presso i distretti di PM
@@ -48,12 +51,16 @@ Tendenzialmente gli uffici periferici potranno scegliere se gestire la segnalazi
 o far gestire la segnalazione della centrale di propria competenza che, per i municipi sarà la Centrale di PC
 per i distretti la centrale COA (Centro Operativo. Automatizzato)
 L'ufficio periferico ha in ogni momento la possibilit? di trasferire la titolarit? della segnalazione alla corrispondente centrale, non vale il contrario.
+
+Possibili compiti (incarichi, presidi e provvedimenti cautelari)
+-----------------------------------------------------------------
 Durante la gestione delle segnalazioni l'ente che ne detiene la titolarità ha a disposizione:
+
 * incarichi
 * incarichi interni 
 * presidi
 * provvedimenti cautelari.
 
-Ricapitolando ecco lo schema
+Ricapitolando ecco lo schema di funzionamento del Sistema Informativo mostrato nella seguente figura.
 
 .. image::  img/schema_segnalazioni.png

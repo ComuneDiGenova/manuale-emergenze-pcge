@@ -18,7 +18,7 @@ Tale sistema, inizialmente realizzato dal Comune di Genova con risorse interne q
 informativi in dotazione all’Ente è stato recentemente completamente rinnovato grazie a dei finanziamenti
 PON Metro 2014-2020.
 
-Il nuovo sistema, realizzato da Gter srl, oltre ad aver subito un importante restyling grafico che,
+Il nuovo sistema, realizzato da [Gter srl](https://www.gter.it), oltre ad aver subito un importante restyling grafico che,
 a detta degli operatori di protezione civile, ha permesso di incrementarne sostanzialmente l’usabilità,
 ha ora al centro l’aspetto territoriale.
 
@@ -36,7 +36,7 @@ Descrizione dell'applicativo
 Si tratta di un applicativo web ad accesso profilato le cui funzionalità verranno
 illustrate in dettaglio nelle seguenti sezioni.
 
-Le funzionalità di sistama sono accessibili dal menù a sinistra dell'interfaccia web,
+Le funzionalità di sistema sono accessibili dal menù a sinistra dell'interfaccia web,
 mentre in alto compare un menù con le principali notifiche del sistema.
 
 Nella prima pagina definita *dashboard* e sempre raggiungibile cliccando sia sul menù

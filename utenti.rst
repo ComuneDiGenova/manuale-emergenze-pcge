@@ -28,6 +28,9 @@ in quanto la gestione dei permessi utente è in carico ai soli amministratori di
 verrà spiegata nelle seguenti sezioni.
 
 
+
+.. _richiesta-accesso:
+
 Richiesta di accesso / rimozione permessi
 -------------------------------------------------------------
 **E' fondamentale che le varie *unità operative* comunichino agli amministratori di sistema

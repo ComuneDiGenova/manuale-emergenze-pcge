@@ -37,8 +37,8 @@ Dal dettaglio dei presidi è possibile inserire e visualizzare eventuali comunic
 
 
 
-Creazione nuovi percorsi per presidi mobili
-''''''''''''''''''''''''''''''''''''''''''''''''''''
+Creazione nuovi percorsi per presidi mobili (tramite geoportale)
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 DA COMPLETARE A CURA DI PC e S.I. (istruzioni geoportale)
 

@@ -25,12 +25,13 @@ L'applicativo realizzato è web-based per cui si accede al sistema semplicemente
 
 In particolare, esistono due versioni dell'applicativo:
 
-* ** versione in esercizio**  `https://emergenze.comune.genova.it <https://emergenze.comune.genova.it>`_ accessibile via internet
-* ** versione di test**  `https://gestemert.comune.genova.it <https://gestemert.comune.genova.it>`_ accessibile solo da rete comunale
+* **versione in esercizio**  `https://emergenze.comune.genova.it <https://emergenze.comune.genova.it>`_ accessibile via internet e da usare solo in emergenza in seguito ad un avviso della Protezione Civile
+* **versione di test**  `https://gestemert.comune.genova.it <https://gestemert.comune.genova.it>`_ accessibile solo da rete comunale e utilizzabile per test ed esercitazioni anche in tempo di pace
 
 
 L'accesso avviene tramite un applicativo dei Sistemi Informativi del Comune di Genova denominato SIRAC SSO (Single Sign On authentication)
-e appositamente implementato per l'accesso agli applicativi che richiedano una doppia modalità di autenticazione.
+appositamente implementato per l'accesso agli applicativi che richiedano una doppia modalità di autenticazione. Per
+maggiori informazioni circa il seguente applicativo si rimanda ai Sistemi Informativi (test@comune.genova.it)
 
 
 .. image::  img/modalita_accesso.png
@@ -41,15 +42,18 @@ ed è quindi necessario inserire le proprie matricola e password comunali
 * **esterno**: Cliccando sul tasto blu a sinistra si visualizzano i vari provider SPID tra cui scegliere quello con le proprie credenziali
 si verrà re-indirizzati sul sito del provider su cui inserire utente e password
 
-Una volta inseriti questi dati si arriva ad una seconda pagina implementata dai Sistemi Informativi del Comune di Genova in cui inserire 
+**Nella sola versione di test**, una volta inseriti questi dati si arriva ad una seconda pagina implementata dai Sistemi Informativi del Comune di Genova in cui inserire
 mail, numero di telefono e indirizzo. **I dati in questione non servono in nessun modo al sistema quindi non è necessario
 inserire dati personali.**
 
 
 .. image::  img/dati_accesso.png
 
-Al ternine si verrà re-indirizzati verso l'applicativo e, se autorizzati, si vedrà la prima pagina dellìapplicativo
+Al termine si verrà re-indirizzati verso l'applicativo e, se autorizzati, si vedrà la prima pagina dell'applicativo.
 
 .. image::  img/dashboard.png
 
-In caso di problemi di accesso si invita a contattare i Sistemi Informativi via mail applicazionisit@comune.genova.it o telefono XXXXXX.
+Se non autorizzati all'acceso è necessario contattare gli amministratori di sistema come illustrato
+nelle :ref:`richiesta-accesso`.
+
+In caso di problemi tecnici di accesso si invita invece a contattare i Sistemi Informativi via mail applicazionisit@comune.genova.it o telefono XXXXXX.

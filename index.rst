@@ -8,7 +8,6 @@ Guida in linea del Nuovo Sistema Emergenze Protezione Civile
 Contenuti:
 
 .. toctree::
-   :maxdepth: 2
 
   intro
   glossario
@@ -24,14 +23,3 @@ Contenuti:
 
 
 
-
-
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
