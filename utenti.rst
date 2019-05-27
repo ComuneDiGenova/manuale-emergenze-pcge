@@ -42,9 +42,11 @@ Per tutti i richiedenti è necessario specificare:
 * CF 
 * affiliazione
 
-**Si ricorda che per gli utenti esterni è necessaria la registrazione utente (previo accreditamento con SPID) tramite la pagina https://emergenze.comune.genova.it/pages/add_volontario.php**
+**Si ricorda che per gli utenti esterni è necessaria la registrazione utente (previo accreditamento con SPID) tramite la  `seguente pagina`_ 
 
+.. _seguente pagina: https://emergenze.comune.genova.it/pages/add_volontario.php**
 
+.. _amministratore di sistema: adminemergenzepc@comune.genova.it
 
 
 
