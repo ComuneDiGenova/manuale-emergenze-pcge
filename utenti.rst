@@ -31,7 +31,9 @@ verrà spiegata nelle seguenti sezioni.
 
 Richiesta di accesso / rimozione permessi
 -------------------------------------------------------------
-Per la richiesta di accesso è necessario inviare una mail .._adminemergenzepc@comune.genova.it:adminemergenzepc@comune.genova.it per richiedere l'attivazione del profilo utente. 
+Per la richiesta di accesso è necessario inviare una mail all' `amministratore di sistema`_  per richiedere l'attivazione del profilo utente. 
+
+.. _amministratore di sistema: adminemergenzepc@comune.genova.it
 
 Per tutti i richiedenti è necessario specificare:
 
@@ -40,7 +42,7 @@ Per tutti i richiedenti è necessario specificare:
 * CF 
 * affiliazione
 
-** Si ricorda che per gli utenti esterni è necessaria la registrazione utente (previo accreditamento con SPID) tramite la pagina https://emergenze.comune.genova.it/pages/add_volontario.php **
+**Si ricorda che per gli utenti esterni è necessaria la registrazione utente (previo accreditamento con SPID) tramite la pagina https://emergenze.comune.genova.it/pages/add_volontario.php**
 
 
 
