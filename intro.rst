@@ -18,9 +18,11 @@ Tale sistema, inizialmente realizzato dal Comune di Genova con risorse interne q
 informativi in dotazione all’Ente è stato recentemente completamente rinnovato grazie a dei finanziamenti
 PON Metro 2014-2020.
 
-Il nuovo sistema, realizzato da [Gter srl](https://www.gter.it), oltre ad aver subito un importante restyling grafico che,
+Il nuovo sistema, realizzato da  `Gter srl`_, oltre ad aver subito un importante restyling grafico che,
 a detta degli operatori di protezione civile, ha permesso di incrementarne sostanzialmente l’usabilità,
 ha ora al centro l’aspetto territoriale.
+
+.. _Gter srl: https://www.gter.it
 
 Ogni segnalazione e/o intervento svolto è infatti georeferenziato grazie al collegamento con la toponomastica comunale.
 Questo nuovo approccio permette di avere in ogni istante un quadro preciso di quanto sta avvenendo sul territorio e

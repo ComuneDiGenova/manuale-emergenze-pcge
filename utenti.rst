@@ -11,14 +11,12 @@ Si tratta di quelle funzionalità utili per:
 Funzionalità di creazione utenti esterni
 -------------------------------------------------------------
 
-*!!NB!! questa parte potrà subire modifiche in seguito alla riunione del 13/03/2019 e delle
-modifiche richieste*
 
 Le funzionalità di creazione degli utenti avvengono tramite un apposito form che
 replica il modulo cartaceo attualmente usato dalla Protezione Civile per la
 registrazione dei volontari e, potrà essere condiviso con enti ed uffici
 periferici, se necessario, per consentire una più agevole registrazione
-delgli utenti esterni.
+degli utenti esterni.
 
 .. image:: img/form_nuovo_utente.PNG
 
@@ -33,14 +31,22 @@ verrà spiegata nelle seguenti sezioni.
 
 Richiesta di accesso / rimozione permessi
 -------------------------------------------------------------
-**E' fondamentale che le varie *unità operative* comunichino agli amministratori di sistema
-le persone cui dare accesso così come le persone a cui rimuovere gli accessi oltre che
-i contatti mail a cui ricevere le notifiche di sistema**.
+Per la richiesta di accesso è necessario inviare una mail all' `amministratore di sistema`_  per richiedere l'attivazione del profilo utente. 
 
-Da completare a cura della PC
+.. _amministratore di sistema: adminemergenzepc@comune.genova.it
 
-mail? - form? - etc?
+Per tutti i richiedenti è necessario specificare:
 
+* nome
+* cognome
+* CF 
+* affiliazione
+
+**Si ricorda che per gli utenti esterni è necessaria la registrazione utente (previo accreditamento con SPID) tramite la  `seguente pagina`_ 
+
+.. _seguente pagina: https://emergenze.comune.genova.it/pages/add_volontario.php**
+
+.. _amministratore di sistema: adminemergenzepc@comune.genova.it
 
 
 
