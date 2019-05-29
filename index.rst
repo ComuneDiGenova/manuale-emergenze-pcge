@@ -11,6 +11,7 @@ Contenuti:
 
   intro
   glossario
+  schema
   accesso
   evento
   squadre
