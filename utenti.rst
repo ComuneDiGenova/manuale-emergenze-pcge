@@ -114,6 +114,8 @@ inviate le notifiche di sistema (vedi sopra).
 Gli amministratori di sistema dovranno aggiornare i dati tramite l'apposita tabella di sistema.
 Per ogni Unità Operativa si possono associare una o più mail.
 
+.. image:: img/contatti_mail.PNG
+
 **E' molto importante verificare periodicamente che i contatti mail inseriti a sistema siano aggiornati per evitare
 falle nelle comunicazioni**.
 
