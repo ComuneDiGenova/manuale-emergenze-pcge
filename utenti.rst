@@ -4,7 +4,7 @@ Funzionalità di gestione utenti
 Si tratta di quelle funzionalità utili per:
 
 * creare nuovi utenti esterni;
-* gestire le treperibilità;
+* gestire le reperibilità;
 * assegnare permessi a *utenti esterni* e  *dipendenti* (per i soli amministratori di sistema);
 * gestire i contatti a cui notificare le mail (per i soli amministratori di sistema).
 
@@ -30,6 +30,8 @@ verrà spiegata nelle seguenti sezioni.
 
 .. _richiesta-accesso:
 
+
+
 Richiesta di accesso / rimozione permessi
 -------------------------------------------------------------
 Per la richiesta di accesso è necessario inviare una mail all' `amministratore di sistema`_  per richiedere l'attivazione del profilo utente. 
@@ -50,8 +52,9 @@ Per tutti i richiedenti è necessario specificare:
 .. _amministratore di sistema: adminemergenzepc@comune.genova.it
 
 
+
 Reperibilita'
--------------------------------------------------------------
+------------------------------------------------------------
 
 In assenza del sistema informativo, ogni azienda partecipata comunicava alla PC la reperibilità del proprio personale tramite specifiche mail
 che venivano opportunamente protocollate dalla PC. 
@@ -71,7 +74,7 @@ Nella pagina delle reperibilità:
 
 	- può visualizzare le reperibilità già registrate a sistema dei propri colleghi. 
 	
-	.. image:: img/reperibilita_azienda1.PNG
+	.. image:: img/reperibilita_azienda0.PNG
 	
 	- deve inserire la reperibilità propria o dei suoi colleghi specificando data e ora di inizio e fine;
 	
@@ -115,3 +118,49 @@ Per ogni Unità Operativa si possono associare una o più mail.
 falle nelle comunicazioni**.
 
 
+
+Funzionalità *amministratore di sistema*
+===========================================
+
+Si tratta di due ulteriori pagine dell'applicativo, accessibili ai soli amministratori di sistema che consentono: 
+
+* visualizzare ed editare le tabelle con le decodifiche usate nel sistema informativo; 
+* visualizzare lo stato del travaso automatico che avviene ogni notte dalle banche dati comunali al sistema informativo.
+
+
+Visualizzazione ed editing tabelle decodifiche
+-------------------------------------------------------------
+
+Si tratta della pagina con cui si possono in sostanza governare tutti gli elenchi a discesa usati dal sistema.
+
+Tali elenchi a discesa sono infatti governati sostanzialmente da una serie di tabelle con le decodifiche usate dal sistema.
+
+Tramite questa pagina è possibile editare dette tabelle.
+
+Come primo step è necessario scegliere la tabella da editare da un'opportuno elenco a discesa. Si tratta in questo caso dell'unico elenco a discesa
+non modificabile dall'amministratore di sistema, ma da personale dei sistemi informativi o dal fornitore. 
+
+.. image:: img/amm_scelta_tabella.PNG
+
+Una volta scelta una tabella si visualizzano i dati presenti 
+
+.. image:: img/amm_update_tabella.PNG
+
+
+e si possono eseguire le seguenti operazioni: 
+
+* editing record;
+
+.. image:: img/amm_update_tabella1.PNG
+
+* aggiunta nuovo record; 
+
+.. image:: img/amm_update_tabella2.PNG
+
+
+**Non  è invece possibile rimuovere record, ma solo agire sul o sui campi vero/falso (normalmente si tratta del campo chiamato *valido*) 
+per non mostrarli negli elenchi a discesa**
+
+
+Visualizzare lo stato del travaso notturno
+----------------------------------------------------------------
