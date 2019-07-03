@@ -8,7 +8,7 @@ Scopo del sistema di Gestione Emergenze
 Da alcuni anni la Protezione Civile del Comune di Genova ha deciso di dotarsi di un proprio sistema informativo
 per la gestione delle emergenze. In questo contesto, l’informazione territoriale gioca un ruolo fondamentale.
 
-.. image:: img/dashboard.PNG
+.. image:: img/dashboard.png
 
 
 Si tratta di un applicativo web che permette la condivisione delle informazioni fra i vari soggetti sia interni
