@@ -180,13 +180,14 @@ Attraverso questa pagina si può:
 
 Quali sono in compiti dell' *amministratore di sistema*?
 ==========================================================
-* L'amministratore di sistema deve ricordarsi che il sistema test e quello in esercizio sono due sistemi distinti. Quindi le modifiche all'uno devono essere
-replicate sull'altro per essere realmente visibili.*
+**L'amministratore di sistema deve ricordarsi che il sistema test e quello in esercizio sono due sistemi distinti. Quindi le modifiche all'uno devono essere
+replicate sull'altro per essere realmente visibili.**
 
 In sintesi si riepilogano quelli che sono i compiti / possibilità dell'amministratore di sistema: 
 
 
 * l'amministratore di sistema è colui che detiene il controllo dell'accesso ai due sistemi (test ed esercizio) e può in ogni momento:
+
 	* assegnare permessi ai dipendenti così come agli utenti esterni registrati
 	* rimuovere i permessi
 	
