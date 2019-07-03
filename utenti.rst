@@ -164,3 +164,34 @@ per non mostrarli negli elenchi a discesa**
 
 Visualizzare lo stato del travaso notturno
 ----------------------------------------------------------------
+
+Anche se il sistema è ospitato nella rete comunale, per migliorare le performance, è utile che alcuni dati, in particolare l'**anagrafe**
+e la **toponomastica**, siano già contenuti nel sistenma per migliorare le performance di accesso al sistema stesso. Per tale ragione,
+è già stata implementata un attività che automaticamente, ogni notte, esegue il trasferimento di alcune informazioni dalla banche dati comunali
+a quelle interne al sistema di gestione emergenze. 
+
+Attraverso questa pagina si può:
+* controllare che non siano avvenuti errori (da segnalare prontamente ai sistemi informativi);
+* lanciare un update manuale del sistema (*!ATTENZIONE!: è un'attività che potrebbe rallentare il sistema, si consiglia di evitare in fase di emergenza*)
+
+
+
+Quali sono in compiti dell' *amministratore di sistema*?
+==========================================================
+* L'amministratore di sistema deve ricordarsi che il sistema test e quello in esercizio sono due sistemi distinti. Quindi le modifiche all'uno devono essere
+replicate sull'altro per essere realmente visibili.*
+
+In sintesi si riepilogano quelli che sono i compiti / possibilità dell'amministratore di sistema: 
+
+
+* l'amministratore di sistema è colui che detiene il controllo dell'accesso ai due sistemi (test ed esercizio) e può in ogni momento:
+	* assegnare permessi ai dipendenti così come agli utenti esterni registrati
+	* rimuovere i permessi
+	
+* l'amministratore di sistema è colui che tiene la rubrica dei contatti a cui notificare gli incarichi (mail)
+
+* l'amministratore di sistema detiene i rapporti con le aziende esterne (contatti anche esterni al sistema)
+
+* l'amministratore di sistema ha accesso alle tabelle di decodifica (quelle che governano gli elenchi a discesa)
+
+* l'amministratore di sistema può forzare l'update delle informazioni anagrafiche e toponomastiche sul sistema (con cautela)
