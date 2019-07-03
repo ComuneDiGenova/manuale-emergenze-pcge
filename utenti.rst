@@ -187,14 +187,9 @@ In sintesi si riepilogano quelli che sono i compiti / possibilità dell'amminist
 
 
 * l'amministratore di sistema è colui che detiene il controllo dell'accesso ai due sistemi (test ed esercizio) e può in ogni momento:
-
 	* assegnare permessi ai dipendenti così come agli utenti esterni registrati
 	* rimuovere i permessi
-	
 * l'amministratore di sistema è colui che tiene la rubrica dei contatti a cui notificare gli incarichi (mail)
-
 * l'amministratore di sistema detiene i rapporti con le aziende esterne (contatti anche esterni al sistema)
-
 * l'amministratore di sistema ha accesso alle tabelle di decodifica (quelle che governano gli elenchi a discesa)
-
 * l'amministratore di sistema può forzare l'update delle informazioni anagrafiche e toponomastiche sul sistema (con cautela)
