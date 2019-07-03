@@ -4,6 +4,7 @@ Funzionalità di gestione utenti
 Si tratta di quelle funzionalità utili per:
 
 * creare nuovi utenti esterni;
+* gestire le treperibilità;
 * assegnare permessi a *utenti esterni* e  *dipendenti* (per i soli amministratori di sistema);
 * gestire i contatti a cui notificare le mail (per i soli amministratori di sistema).
 
@@ -47,6 +48,39 @@ Per tutti i richiedenti è necessario specificare:
 .. _seguente pagina: https://emergenze.comune.genova.it/pages/add_volontario.php**
 
 .. _amministratore di sistema: adminemergenzepc@comune.genova.it
+
+
+Reperibilita'
+-------------------------------------------------------------
+
+In assenza del sistema informativo, ogni azienda partecipata comunicava alla PC la reperibilità del proprio personale tramite specifiche mail
+che venivano opportunamente protocollate dalla PC. 
+Con il nuovo sistema si propone di **inserire le reperibilità direttamente sul sistema** tramite le apposite funzionalità. 
+
+Per l'aggiunta delle reperibilità si può utilizzare l'apposita pagina richiamabile: 
+
+* dalla barra a sinistra all'interno del menù "Gestione utenti"
+* dalla toolbar in alto dove, chi accede con un profilo "esterno" trova un tasto apposito per accedere alle reperibilità come mostrato nell'immagine sottostante.
+
+.. image:: img/reperibilita_toolbar_azienda0.PNG
+
+
+Nella pagina delle reperibilità: 
+
+* l'utente esterno:
+
+	- può visualizzare le reperibilità già registrate a sistema dei propri colleghi. 
+	
+	.. image:: img/reperibilita_azienda1.PNG
+	
+	- deve inserire la reperibilità propria o dei suoi colleghi specificando data e ora di inizio e fine;
+	
+	.. image:: img/reperibilita_azienda1.PNG
+
+
+* il personale di Protezione Civile può invece visualizzare le reperibilità già registrate a sistema di tutte le aziende partecipate e, in assenza di dati registrati sollecitare l'invio di detti dati tramite una mail automatica.
+
+.. image:: img/reperibilita_amm.PNG
 
 
 
