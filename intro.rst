@@ -8,7 +8,7 @@ Scopo del sistema di Gestione Emergenze
 Da alcuni anni la Protezione Civile del Comune di Genova ha deciso di dotarsi di un proprio sistema informativo
 per la gestione delle emergenze. In questo contesto, l’informazione territoriale gioca un ruolo fondamentale.
 
-.. image:: img/legenda_mappa.png
+.. image:: img/dashboard.PNG
 
 
 Si tratta di un applicativo web che permette la condivisione delle informazioni fra i vari soggetti sia interni
@@ -43,4 +43,17 @@ mentre in alto compare un menù con le principali notifiche del sistema.
 
 Nella prima pagina definita *dashboard* e sempre raggiungibile cliccando sia sul menù
 a sinistra che sulla toolbar delle notifiche, si cerca di fornire a tutti gli utenti
-un riepilogo sintetico di quanto sta accadendo sul territorio.
+un riepilogo sintetico di quanto sta accadendo sul territorio:
+
+* elenco delle segnalazioni aperte con possibilità di accesso rapido alla pagina con i dettagli di ciascuna segnalazione;
+* mappa di sintesi;
+
+.. image:: img/legenda_mappa.png
+
+* elenco dei presidi in corso;
+
+* alcuni conteggi di massima;
+
+* mappa con le allerte di Regione Liguria (in tempo reale dal sito http://www.allertaliguria.gov.it/) 
+
+* elenco dei tweet della pagina di Protezione Civile comunale
