@@ -5,10 +5,10 @@ Evento
 --------------------
 L'**evento** è alla base del sistema.
 Può essere previsto o in atto ed è la condizione necessaria per usare il sistema (inserire segnalazoni, creare sopralluoghi, etc.)
-Con l'apertura di un evento si possono iniziare ad inserire informazioni a sistema, in assenza di un evento in corso non ? possibile utilizzare l'applicativo.
+Con l'apertura di un evento si possono iniziare ad inserire informazioni a sistema, in assenza di un evento in corso non è possibile utilizzare l'applicativo.
 
-Dal punto di vista procedurale, l'apertura di un evento corrisponde alla convocazione del COC (Centro Operativo XXXX) e verr? 
-comunicata a uffici periferici (municipi, distretti), direzioni e unit? operative esterne (AMIU, AMT ASter, etc) attraverso un contatto mail.
+Dal punto di vista procedurale, l'apertura di un evento corrisponde alla convocazione del COC (Centro Operativo XXXX) e verrà 
+comunicata a uffici periferici (municipi, distretti), direzioni e unità operative esterne (AMIU, AMT ASter, etc) attraverso un contatto mail.
 Importante a questo proposito comunicare a Protezione Civile eventuali variazioni alle mail di contatto.
 
 Allerte e Fasi Operative Comunali
@@ -16,7 +16,7 @@ Allerte e Fasi Operative Comunali
 
 L'evento non corrisponde ad un'allerta meteo, anche se frequentemente, almeno sul nostro territorio,
 gli eventi possono essere aperti in previsione di un'allerta diramata dalla PC regionale.
-In tal caso, un evento conterr? spesso diverse 
+In tal caso, un evento conterra' spesso diverse 
 * **allerte** corrisponde a un avviso istituzionale (proveniente da ARPAL e Regione Liguria) 
 che preannuncia il verificarsi di una situazione critica. possono essere
 
@@ -26,7 +26,7 @@ che preannuncia il verificarsi di una situazione critica. possono essere
 
 
 Le **Fasi Operative Comunali (F.O.C.)** : spesso corrispondono alle allerte, ma non necessariamente
-(es. crollo del ponte Morandi) ed è individuata dalla Protezione Civile Comunale sulla base delle criticit? associate
+(es. crollo del ponte Morandi) ed è individuata dalla Protezione Civile Comunale sulla base delle criticita' associate
 all'evento. Nel caso di evento meteo/idro le F.O.C. sono individuate dal seguente schema estratto dal manuale operativo comunale id Protezione
 Civile
 
