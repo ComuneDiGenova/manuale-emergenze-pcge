@@ -39,7 +39,7 @@ Ogni squadra può essere:
 * **in azione** qualora le sia stato assegnato un compito.
 
 **E' fondamentale l'aggiornamento costante delle informazioni sullo stato della squadra
-per garantire una corretta assegnazione dei compiti (incarichi/provvedimenti cautelari/presidi) alla squadra stessa.**
+per garantire una corretta assegnazione dei compiti (incarichi interni/presidi) alla squadra stessa.**
 
 Lo stato *a disposizione* / *in azione* è aggiornato in automatico dal sistema
 ogni qualvolta vengano associati compiti
