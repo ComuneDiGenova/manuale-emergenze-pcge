@@ -18,7 +18,7 @@ L'evento non corrisponde ad un'allerta meteo, anche se frequentemente, almeno su
 gli eventi possono essere aperti in previsione di un'allerta diramata dalla PC regionale.
 In tal caso, un evento conterra' spesso diverse 
 **allerte** che corrisponde a un avviso istituzionale (proveniente da ARPAL e Regione Liguria) 
-che preannuncia il verificarsi di una situazione critica. Le allerte ossono essere:
+che preannuncia il verificarsi di una situazione critica. Le allerte possono essere:
 
 * gialla
 * arancione
