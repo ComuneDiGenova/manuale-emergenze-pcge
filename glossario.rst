@@ -3,7 +3,7 @@ Glossario
 
 Evento
 --------------------
-L' **evento** è alla base del sistema.
+L'**evento** è alla base del sistema.
 Può essere previsto o in atto ed è la condizione necessaria per usare il sistema (inserire segnalazoni, creare sopralluoghi, etc.)
 Con l'apertura di un evento si possono iniziare ad inserire informazioni a sistema, in assenza di un evento in corso non è possibile utilizzare l'applicativo.
 
