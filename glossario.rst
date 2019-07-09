@@ -49,7 +49,7 @@ Possono essere gestite da una centrale PC / COA o da un ufficio periferico (muni
 
 Tendenzialmente gli uffici periferici potranno scegliere se gestire la segnalazione in autonomia
 o far gestire la segnalazione della centrale di propria competenza che, per i municipi sarà la Centrale di PC
-per i distretti la centrale COA (Centro Operativo. Automatizzato)
+per i distretti la centrale COA (Centro Operativo Automatizzato)
 L'ufficio periferico ha in ogni momento la possibilit? di trasferire la titolarit? della segnalazione alla corrispondente centrale, non vale il contrario.
 
 Possibili compiti (incarichi, presidi e provvedimenti cautelari)
