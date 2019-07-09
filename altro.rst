@@ -81,4 +81,6 @@ CHIUSURA STRADA:
 * Via e numeri civici (inizio/fine)
 * Via e descrizione
 
-Una volta eseguito il provvedimento, l'operatore deve dichiararlo completato inserendo alcune note sulla chiusura del provvedimento. A questo punto sarà possibile creare e affidare nuovi incarichi ad esempio per avviare operazioni di ripristino delle condizioni precedenti al provvedimento oppure rimuovere il provvedimento. Qualora venissero creati e affidati nuovi incarichi questi devono essere presi in carico, eseguiti e infine chiusi prima di procedere alla rimozione del provvedimento cautelare.
+Una volta eseguito il provvedimento, l'operatore deve dichiararlo completato inserendo alcune note sulla chiusura del provvedimento. A questo punto sarà possibile creare e affidare nuovi incarichi ad esempio per avviare operazioni di ripristino delle condizioni precedenti al provvedimento oppure rimuovere il provvedimento. Qualora venissero creati e affidati nuovi incarichi questi devono essere presi in carico, eseguiti e infine chiusi prima di procedere alla rimozione del provvedimento cautelare. 
+
+Se il provvedimento cxautelare è associato a una segnalazione sarà possibile rimuoverlo dalla pagina di gestione della segnalazione stessa. Qualora invece si tratti di un provvedimento non associato ad alcuna segnalazione, sarà possibile rimuoverlo direttamente dalla pagina di gestione del provvedimento stesso.
