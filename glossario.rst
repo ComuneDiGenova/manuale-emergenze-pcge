@@ -7,7 +7,7 @@ L'**evento** è alla base del sistema.
 Può essere previsto o in atto ed è la condizione necessaria per usare il sistema (inserire segnalazoni, creare sopralluoghi, etc.)
 Con l'apertura di un evento si possono iniziare ad inserire informazioni a sistema, in assenza di un evento in corso non è possibile utilizzare l'applicativo.
 
-Dal punto di vista procedurale, l'apertura di un evento corrisponde alla convocazione del COC (Centro Operativo XXXX) e verra' 
+Dal punto di vista procedurale, l'apertura di un evento corrisponde alla convocazione del COC (Centro Operativo XXXX) e verrà 
 comunicata a uffici periferici (municipi, distretti), direzioni e unità operative esterne (AMIU, AMT ASter, etc) attraverso un contatto mail.
 Importante a questo proposito comunicare a Protezione Civile eventuali variazioni alle mail di contatto.
 
@@ -16,7 +16,7 @@ Allerte e Fasi Operative Comunali
 
 L'evento non corrisponde ad un'allerta meteo, anche se frequentemente, almeno sul nostro territorio,
 gli eventi possono essere aperti in previsione di un'allerta diramata dalla PC regionale.
-In tal caso, un evento conterra' spesso diverse 
+In tal caso, un evento conterrà spesso diverse 
 **allerte** che corrisponde a un avviso istituzionale (proveniente da ARPAL e Regione Liguria) 
 che preannuncia il verificarsi di una situazione critica. Le allerte possono essere:
 
@@ -26,7 +26,7 @@ che preannuncia il verificarsi di una situazione critica. Le allerte possono ess
 
 
 Le **Fasi Operative Comunali (F.O.C.)** : spesso corrispondono alle allerte, ma non necessariamente
-(es. crollo del ponte Morandi) ed è individuata dalla Protezione Civile Comunale sulla base delle criticita' associate
+(es. crollo del ponte Morandi) ed è individuata dalla Protezione Civile Comunale sulla base delle criticità associate
 all'evento. Nel caso di evento meteo/idro le F.O.C. sono individuate dal seguente schema estratto dal manuale operativo comunale id Protezione
 Civile
 
@@ -50,7 +50,7 @@ Possono essere gestite da una centrale PC / COA o da un ufficio periferico (muni
 Tendenzialmente gli uffici periferici potranno scegliere se gestire la segnalazione in autonomia
 o far gestire la segnalazione della centrale di propria competenza che, per i municipi sarà la Centrale di PC
 per i distretti la centrale COA (Centro Operativo Automatizzato)
-L'ufficio periferico ha in ogni momento la possibilit? di trasferire la titolarit? della segnalazione alla corrispondente centrale, non vale il contrario.
+L'ufficio periferico ha in ogni momento la possibilità di trasferire la titolarità della segnalazione alla corrispondente centrale, non vale il contrario.
 
 Possibili compiti (incarichi, presidi e provvedimenti cautelari)
 -----------------------------------------------------------------
