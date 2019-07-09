@@ -3,11 +3,11 @@ Glossario
 
 Evento
 --------------------
-L'**evento** è alla base del sistema.
+L' **evento** è alla base del sistema.
 Può essere previsto o in atto ed è la condizione necessaria per usare il sistema (inserire segnalazoni, creare sopralluoghi, etc.)
 Con l'apertura di un evento si possono iniziare ad inserire informazioni a sistema, in assenza di un evento in corso non è possibile utilizzare l'applicativo.
 
-Dal punto di vista procedurale, l'apertura di un evento corrisponde alla convocazione del COC (Centro Operativo XXXX) e verrà 
+Dal punto di vista procedurale, l'apertura di un evento corrisponde alla convocazione del COC (Centro Operativo XXXX) e verra' 
 comunicata a uffici periferici (municipi, distretti), direzioni e unità operative esterne (AMIU, AMT ASter, etc) attraverso un contatto mail.
 Importante a questo proposito comunicare a Protezione Civile eventuali variazioni alle mail di contatto.
 
@@ -17,8 +17,8 @@ Allerte e Fasi Operative Comunali
 L'evento non corrisponde ad un'allerta meteo, anche se frequentemente, almeno sul nostro territorio,
 gli eventi possono essere aperti in previsione di un'allerta diramata dalla PC regionale.
 In tal caso, un evento conterra' spesso diverse 
-* **allerte** corrisponde a un avviso istituzionale (proveniente da ARPAL e Regione Liguria) 
-che preannuncia il verificarsi di una situazione critica. possono essere
+**allerte** che corrisponde a un avviso istituzionale (proveniente da ARPAL e Regione Liguria) 
+che preannuncia il verificarsi di una situazione critica. Le allerte ossono essere:
 
 * gialla
 * arancione
