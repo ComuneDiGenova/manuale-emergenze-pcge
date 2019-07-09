@@ -21,12 +21,32 @@ Gestione evento in corso
 Tramite questa pagina è possibile visualizzare:
 
 * dettagli sull'evento in corso;
+* accedere alla pagina in cui inserire le informazioni sul Monitoraggio Meteo;
+* dettagli sull'attivazione del Numero Verde;
 * dettagli sulle Allerte / Fasi Operative Comunali (F.O.C.) previste, in corso o passate.
 
 Per gli amministratori di sistema è anche possibile aggiungere o modificare le informazioni sulle
 Allerte / Fasi Operative Comunali in corso.
 
 .. image:: img/gestione_evento.PNG
+
+
+DA CAMBIARE IMMAGINE / COMPLETARE
+
+
+Assegna turni sala emergenze
+---------------------------------------------------
+Tramite questa funzionalità il personale di sala può registrare i turni delle persone impiegate in sala emergenze:
+
+* Coordinatore di sala
+* Operatore Monitoraggio Meteo
+* Operatore Presidi Territoriali
+* Tecnico di Protezione Civile
+
+
+
+DA COMPLETARE
+
 
 
 Visualizzazione bollettini ARPA e Regione
