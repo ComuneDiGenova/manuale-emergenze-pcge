@@ -37,8 +37,7 @@ maggiori informazioni circa il seguente applicativo si rimanda ai Sistemi Inform
 .. image::  img/modalita_accesso.png
 
 
-* **dipendente comunale**: Cliccando sul tasto rosso a destra compare un'unica opzione su cui cliccare "Altre modalità di accesso" 
-ed è quindi necessario inserire le proprie matricola e password comunali
+* **dipendente comunale**: Cliccando sul tasto rosso a destra compare un'unica opzione su cui cliccare "Altre modalità di accesso" ed è quindi necessario inserire le proprie matricola e password comunali
 
 * **esterno**: Cliccando sul tasto blu a sinistra si visualizzano i vari provider SPID tra cui scegliere quello con le proprie credenziali e si verrà re-indirizzati sul sito del provider su cui inserire utente e password
 
