@@ -39,8 +39,8 @@ Segnalazione
 Le segnalazioni: possono pervenire dai cittadini:
 
 * tramite numero verde comunale (Centrale PC)
-* tramite numero della PM (Centrale COA)
-* chiamando/recandosi presso i distretti di PM
+* tramite numero della Polizia Municipale (Centrale COA)
+* chiamando/recandosi presso i distretti di Polizia Municipale (PM)
 * chiamando/recandosi presso i municipi
 
 Oltre che dai cittadini possono pervenire anche da enti/associazioni/squadre presenti sul territorio.
