@@ -39,8 +39,8 @@ maggiori informazioni circa il seguente applicativo si rimanda ai Sistemi Inform
 
 * **dipendente comunale**: Cliccando sul tasto rosso a destra compare un'unica opzione su cui cliccare "Altre modalità di accesso" 
 ed è quindi necessario inserire le proprie matricola e password comunali
-* **esterno**: Cliccando sul tasto blu a sinistra si visualizzano i vari provider SPID tra cui scegliere quello con le proprie credenziali
-si verrà re-indirizzati sul sito del provider su cui inserire utente e password
+
+* **esterno**: Cliccando sul tasto blu a sinistra si visualizzano i vari provider SPID tra cui scegliere quello con le proprie credenziali e si verrà re-indirizzati sul sito del provider su cui inserire utente e password
 
 **Nella sola versione di test**, una volta inseriti questi dati si arriva ad una seconda pagina implementata dai Sistemi Informativi del Comune di Genova in cui inserire
 mail, numero di telefono e indirizzo. **I dati in questione non servono in nessun modo al sistema quindi non è necessario
