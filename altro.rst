@@ -62,5 +62,21 @@ La creazione di nuovi PC può avvenire dal dettaglio segnalazioni in caso di pre
 
 La creazione di un nuovo Provvedimento Cautelare richiede di specificare:
 
-* evento
-* squadra a cui assegnare il presidio (*da modificare in seguito a riunione del 13/03/2019*)
+* la tipologia di Unità Operativa a cui assegnare l'incarico (Direzioni COC, Municipi, Distretti di PM)
+* l'Unità Operativa (es. il singolo Municipio o il singolo distretto di PM)
+
+A seconda della tipologia di Provvedimento Cautelare dovranno inoltre essere inserite ulteriori specifiche:
+
+SGOMBERO CIVICO:
+
+* Via
+* Numero Civico
+
+INTERDIZIONE ACCESSO SOTTOPASSO:
+
+* Nome Sottopasso
+
+CHIUSURA STRADA:
+
+* Via e numeri civici (inizio/fine)
+* Via e descrizione
