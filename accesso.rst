@@ -31,7 +31,7 @@ In particolare, esistono due versioni dell'applicativo:
 
 L'accesso avviene tramite un applicativo dei Sistemi Informativi del Comune di Genova denominato SIRAC SSO (Single Sign On authentication)
 appositamente implementato per l'accesso agli applicativi che richiedano una doppia modalità di autenticazione. Per
-maggiori informazioni circa il seguente applicativo si rimanda ai Sistemi Informativi (test@comune.genova.it)
+maggiori informazioni circa il seguente applicativo si rimanda ai Sistemi Informativi (applicazionisit@comune.genova.it)
 
 
 .. image::  img/modalita_accesso.png
@@ -52,7 +52,7 @@ Al termine si verrà re-indirizzati verso l'applicativo e, se autorizzati, si ve
 
 .. image::  img/dashboard.png
 
-Se non autorizzati all'acceso è necessario contattare gli amministratori di sistema come illustrato
+Se non autorizzati all'acceso è necessario contattare gli amministratori di sistema (adminemergenzepc@comune.genova.it) come illustrato
 nelle :ref:`richiesta-accesso`.
 
 In caso di problemi tecnici di accesso si invita invece a contattare i Sistemi Informativi via mail applicazionisit@comune.genova.it o telefono XXXXXX.
