@@ -34,7 +34,7 @@ verrà spiegata nelle seguenti sezioni.
 
 Richiesta di accesso / rimozione permessi
 -------------------------------------------------------------
-Per la richiesta di accesso è necessario inviare una mail all' `amministratore di sistema`_  per richiedere l'attivazione del profilo utente. 
+Per la richiesta di accesso è necessario inviare una mail all' `amministratore di sistema`_ (adminemergenzepc@comune.genova.it) per richiedere l'attivazione del profilo utente. 
 
 .. _amministratore di sistema: adminemergenzepc@comune.genova.it
 
