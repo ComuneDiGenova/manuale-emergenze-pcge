@@ -1,5 +1,6 @@
 # manuale-emergenze-pcge
-Manuale del nuovo sistema di Gestione Emergenze della Protezione Civile di Genova
+Manuale del nuovo sistema di Gestione Emergenze della Protezione Civile di Genova. 
+La versione compilata è disponibile su readthedocs al seguente link: https://manuale-sistema-di-gestione-emergenze-comune-di-genova.readthedocs.io/it/latest/
 
 
 ## Descrizione del manuale
