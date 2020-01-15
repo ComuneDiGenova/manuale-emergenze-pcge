@@ -6,8 +6,8 @@ Chi può avere accesso al sistema
 ---------------------------------
 Le modalità di accesso attualmente previste dal sistema sono:
 
-* **dipendente comunale**: avviene inserendo matricola e password comunali
-* **esterno**: avviene inserendo le proprie credenziali SPID
+* **dipendente comunale**: *da rete interna*: avviene inserendo matricola e password comunali; *da rete esterna*: avviene inserendo le  credenziali SPID personali  
+* **esterno**: avviene inserendo le credenziali SPID personali
 
 Le matricola e/o le credenziali SPID sono il criterio con cui accedere all'appllicativo. 
 Dopodichè per visualizzare le informazioni e/o inserire nuove informazioni è necessario essere abilitati
