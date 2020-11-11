@@ -189,8 +189,11 @@ e si possono eseguire le seguenti operazioni:
 .. image:: img/amm_update_tabella2.PNG
 
 
-**Non  è invece possibile rimuovere record, ma solo agire sul o sui campi vero/falso (normalmente si tratta del campo chiamato *valido*) 
-per non mostrarli negli elenchi a discesa**
+
+Per eliminare delle voci dagli elenchi a discesa si sottolinea come **non sia possibile rimuovere record, ma solo agire sul o sui campi vero/falso**. Normalmente si tratta del campo chiamato *valido* ma ci possono essere alcune eccezioni. 
+
+
+
 
 
 Visualizzare lo stato del travaso notturno
