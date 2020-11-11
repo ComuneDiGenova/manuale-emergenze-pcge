@@ -126,8 +126,37 @@ Funzionalità *amministratore di sistema*
 
 Si tratta di due ulteriori pagine dell'applicativo, accessibili ai soli amministratori di sistema che consentono: 
 
+* correggere eventuali turni (sala emergenze) erroneamente inseriti 
 * visualizzare ed editare le tabelle con le decodifiche usate nel sistema informativo; 
 * visualizzare lo stato del travaso automatico che avviene ogni notte dalle banche dati comunali al sistema informativo.
+
+
+Correzione turni sala emergenze
+-------------------------------------------------------------
+
+Può accadere che i turni di sala emergenze vengano inseriti erroneamente. 
+*Solo per gli amministratori di sistema* è possibile correggere i turni. 
+
+Andare sul menù:
+- gestione eventi
+	- Storico turni sala emergenze
+	
+E' possibile cercare l turno da correggere servendosi degli appositi filtri presenti su tutti i campi della tabella e quindi cliccare sul tasto "modifica" (l'ultimo a destra) 
+
+.. image:: img/correzioni_1.PNG
+
+Si accederà quindi ad una nuova pagina con i dettagli del turno da correggere
+
+.. image:: img/correzioni_2.PNG
+
+
+Infine cliccando sull'apposito tasto si potrà modificare l'inizio e la fine turno. 
+.. image:: img/correzioni_2.PNG
+
+Tutte le modifiche sono segnalate in chiaro sul SW emergenze attraverso appositi segnali di warning presenti sia sui report evento che sulla tabella di riepilogo dei turni. 
+
+Maggiori dettagli sono presenti sul log di sistema presente sul DB PostgreSQL alla base dell'applicativo.
+
 
 
 Visualizzazione ed editing tabelle decodifiche

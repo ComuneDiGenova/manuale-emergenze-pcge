@@ -25,6 +25,7 @@ che preannuncia il verificarsi di una situazione critica. Le allerte possono ess
 * rossa
 
 
+
 Le **Fasi Operative Comunali (F.O.C.)** : spesso corrispondono alle allerte, ma non necessariamente
 (es. crollo del ponte Morandi) ed è individuata dalla Protezione Civile Comunale sulla base delle criticità associate
 all'evento. Nel caso di evento meteo/idro le F.O.C. sono individuate dal seguente schema estratto dal manuale operativo comunale id Protezione
