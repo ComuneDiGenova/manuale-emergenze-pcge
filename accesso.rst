@@ -56,3 +56,39 @@ Se non autorizzati all'acceso è necessario contattare gli amministratori di sis
 nelle :ref:`richiesta-accesso`.
 
 In caso di problemi tecnici di accesso si invita invece a contattare i Sistemi Informativi via mail applicazionisit@comune.genova.it o telefono XXXXXX.
+
+
+Profilo utente e attivazione notifiche telegram 
+--------------------------------------------------------------
+
+Si possono visualizzare le caratteristiche del proprio utente (livello di permessi) o altro accedendo all'apposito pulsante presente nella toolbar in alto a destra  cliccando sul proprio codice fiscale
+
+.. image::  img/profilo0.PNG
+
+
+Oltre a visualizzare i dati è anche possibile attivare il bot telegram denominato **Gestione emergenze comune di Genova** (@emergenze_genova_bot) che si può aggiungere sul proprio account telegram.
+
+.. image::  img/profilo0.PNG
+
+
+1) Per prima cosa è necessario installare il bot su telegram (cercare il titolo *Gestione emergenze comune di Genova* o direttamente il nome @emergenze_genova_bot
+
+.. image::  img/ricerca_bot.jpg
+
+
+2) Quini recuperare il proprio *telegram id* o *chat id*  tramite il bot stesso. Cliccare sul simbolo **/** o iniziare a digitare lo slash / e selezionare il comando telegram_id
+
+
+.. image::  img/chat_id.PNG
+
+
+Il bot restiruirà il proprio chat id
+
+.. image::  img/chat_id2.PNG
+
+3) a quel punto sul sistema emergenze inserire il proprio *telegram id* e attivare le notifiche
+
+** Si noti che le notifiche di sistema sono inviate sulla base dello specifico profilo impostato dagli amministratori di sistema. 
+Non è in nessun modo possibile modficare queste impostazioni.**
+
+ 
