@@ -68,8 +68,11 @@ Si possono visualizzare le caratteristiche del proprio utente (livello di permes
 
 Oltre a visualizzare i dati è anche possibile attivare il bot telegram denominato **Gestione emergenze comune di Genova** (@emergenze_genova_bot) che si può aggiungere sul proprio account telegram.
 
-.. image::  img/profilo0.PNG
+.. image::  img/profilo1.PNG
 
+
+Attivazione notifiche telegram 
+***********************************************
 
 1) Per prima cosa è necessario installare il bot su telegram (cercare il titolo *Gestione emergenze comune di Genova* o direttamente il nome @emergenze_genova_bot
 
