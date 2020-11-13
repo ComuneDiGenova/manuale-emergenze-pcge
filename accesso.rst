@@ -78,18 +78,32 @@ Attivazione notifiche telegram
 
 .. image::  img/ricerca_bot.jpg
 
+|
 
-2) Quini recuperare il proprio *telegram id* o *chat id*  tramite il bot stesso. Cliccare sul simbolo **/** o iniziare a digitare lo slash / e selezionare il comando telegram_id
+|
+
+2) Quindi recuperare il proprio *telegram id* o *chat id*  tramite il bot stesso. Cliccare sul simbolo **/** o iniziare a digitare lo slash / e selezionare il comando telegram_id
 
 
 .. image::  img/chat_id.PNG
+
+|
+
 
 
 Il bot restiruirà il proprio chat id
 
 .. image::  img/chat_id2.PNG
 
+|
+
+|
+
 3) a quel punto sul sistema emergenze inserire il proprio *telegram id* e attivare le notifiche
+
+|
+
+|
 
 ** Si noti che le notifiche di sistema sono inviate sulla base dello specifico profilo impostato dagli amministratori di sistema. 
 Non è in nessun modo possibile modficare queste impostazioni.**
