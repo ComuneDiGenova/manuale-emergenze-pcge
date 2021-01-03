@@ -19,7 +19,7 @@ La creazione di un nuovo presidio fisso richiede di specificare:
 * localizzare il presidio tramite un punto su mappa (che ovviamente può esser indicativo)
 
 
-La creazione di un nuovo presidio fisso richiede di specificare:
+La creazione di un nuovo presidio mobile richiede di specificare:
 
 * evento
 * squadra a cui assegnare il presidio
