@@ -65,6 +65,7 @@ Il comando **/registra_uscita**, disponibile nella lista dei comandi, consente d
 
 .. warning:: Qualora fosse già stata indicata la fine del proprio turno tramite il comando **/registra_uscita**, il bot restituirà un messaggio che informa l'utente che non risulta a sistema un tunro attivo.
 
+A partire da 10 minuti prima dell'ora presunta di fine turno, l'utente riceverà una notifica automatica di remind sul bot per ricordare di utilizzare il comando **/registra_uscita** per indicare la fine del turno. L'utente riceverà una notifica ogni 10 minuti finchè non verrà chiuso il turno
 
 Accettazione/rifiuto incarichi interni, incarichi e presidi
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
