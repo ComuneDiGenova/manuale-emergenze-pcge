@@ -94,8 +94,8 @@ Accettazione/rifiuto incarichi interni, presidi e incarichi
 
 Durante la gestione di una segnalazione registrata sul Sistema Emergenze, l'ente che ne detiene la titolarità ha la possibilità di assegnare incarichi interni e presidi fissi alle squadre attivabile o incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. Questa funzione gestisce inoltre anche l'accettazione da parte della squadra dei presidi mobili.
 
-* Quando viene assegnato un incarico interno o un presidio il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato l'incarico/presidio. 
-* Quando viene assegnato un incarico il Sistema Emergenze **invierà una notifica sul bot Telegram** ai contatti registrati a sistema per la notifica degli incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. 
+* Quando viene assegnato un incarico interno o un presidio il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato l'incarico/presidio. In questo caso è possibile per gli operatori gestire l'accettazione o il rifiuto dell'incarico/presidio direttamente dal bot Telegram.
+* Quando viene assegnato un incarico il Sistema Emergenze **invierà una notifica sul bot Telegram** ai contatti registrati a sistema per la notifica degli incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. In questo caso viene solamente inviata la notifica e **non è possibile** per gli operatori gestire l'accettazione o il rifiuto dell'incarico direttamente dal bot Telegram.
 
 Accettazione/rifiuto incarichi interni
 ***************************************
@@ -129,6 +129,87 @@ Conclusi questi tre step, l'operatore riceverà un messaggio di riepilogo con qu
   :align: center
   
 .. warning:: Per sua natura il bot Telegram consente di eseguire le sole operazioni che sono state sviluppate per il bot stesso, è quindi fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
+
+L'operatore può successivamente **chiudere** l'incarico con due modalità:
+
+* cliccando sul comando **/chiudo** direttamente dal messaggio di notifica ricevuto terminata la funzione di accettazione dell'incarico
+* digitando il comando **/chiudo** nell'area di testo di Telegram
+
+La funzione di chiusura dell'incarico assegnato è composta dai seguenti step:
+
+* comando **/chiudo** - restiruisce un messaggio sul bot in cui viene chiesto all'operatore di indicare una nota di chiusura
+* invio del messaggio da parte dell'operatore con un breve testo di nota per la chiusura
+
+.. image:: img/chiudo_inc_int.png
+  :align: center
+  
+Oltre ad accettare/chiudere l'incarico è possibile anche dal bot telegram **rifiutare** l'incarico.
+
+L'operatore può **rifiutare** l'incarico con due modalità:
+
+* cliccando sul comando **/rifiuto** direttamente dal messaggio di notifica ricevuto all'assegnazione dell'incarico
+* digitando il comando **/rifiuto** nell'area di testo di Telegram
+
+La funzione di rifiuto dell'incarico assegnato è composta dai seguenti step:
+
+* comando **/rifiuto** - restiruisce un messaggio sul bot in cui viene chiesto all'operatore di indicare una motivazione per il rifiuto
+* invio del messaggio da parte dell'operatore con un breve testo di motivazione per il rifiuto
+
+.. image:: img/rifiuto_inc_int.png
+  :align: center
+  
+
+.. warning:: I comandi **/accetto, /chiudo e /rifiuto** funzionano solo se l'operatore è parte di una squadra e se a quella squadra è stato assegnato un incarico. Quando l'operatore lancia uno di questi comandi il bot verifica se l'operatore è inserito in una squadra e se ad essa è assegnato un incarico interno, qualora queste condizioni non fossero verificate, il bot restituisce un messaggio di errore.
+
+
+Accettazione presidio fisso
+***************************************
+
+In caso di assegnazione di un presidio fisso a una squadra, tutti gli operatori facenti parte della squadra riceveranno una notifica di assegnazione presidio sul bot Telegram con indicato:
+
+* il numero della segnalazione a cui fa riferimento il presidio
+* il nome della squadra di appartenenza
+* i dettagli del presidio (breve descrizione operativa)
+* le istruzioni per accettare il presidio (nel caso dei presidi non è previsto il rifiuto)
+* una mappa con la geolocalizzazione del presidio
+
+.. image:: img/notifica_pres_fis.png
+  :align: center
+  
+
+L'operatore può **accettare** il presidio fisso con due modalità:
+
+* cliccando sul comando **/presidio** direttamente dal messaggio di notifica ricevuto
+* digitando il comando **/presidio** nell'area di testo di Telegram
+
+La funzione di accettazione del presidio assegnato è composta dai seguenti step:
+
+* comando **/presidio** - restiruisce un messaggio sul bot in cui viene chiesto all'operatore di indicare tra quanti minuti sarà sul posto.
+* invio del messaggio da parte dell'operatore con indicazione il numero di minuti espresso in cifre (es. 20). **NB.** Se il numero di minuti viene espresso in caratteri (es. venti) il bot restituirà un messaggio di errore e sarà necessario indicare nuovamente i minuti in cifre.
+
+Conclusi questi due step, l'operatore riceverà un messaggio di riepilogo con quanto indicato negli step recedenti e le istruzioni per chiudere il presidio una volta completato
+
+.. image:: img/accetto_pres_fis.png
+  :align: center
+  
+.. warning:: Per sua natura il bot Telegram consente di eseguire le sole operazioni che sono state sviluppate per il bot stesso, è quindi fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
+
+L'operatore può successivamente **chiudere** il presidio con due modalità:
+
+* cliccando sul comando **/stop** direttamente dal messaggio di notifica ricevuto terminata la funzione di accettazione del presidio
+* digitando il comando **/stop** nell'area di testo di Telegram
+
+La funzione di chiusura del presidio assegnato è composta dai seguenti step:
+
+* comando **/stop** - restiruisce un messaggio sul bot in cui viene chiesto all'operatore di indicare una nota di chiusura
+* invio del messaggio da parte dell'operatore con un breve testo di nota per la chiusura
+
+.. image:: img/chiudo_pres_fis.png
+  :align: center
+  
+
+.. warning:: I comandi **/presidio e /stop** funzionano solo se l'operatore è parte di una squadra e se a quella squadra è stato assegnato un presidio. Quando l'operatore lancia uno di questi comandi il bot verifica se l'operatore è inserito in una squadra e se ad essa è assegnato un presidio fisso, qualora queste condizioni non fossero verificate, il bot restituisce un messaggio di errore.
+
 
 .. _lettura-mira:
 
