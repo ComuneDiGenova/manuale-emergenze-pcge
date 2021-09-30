@@ -28,9 +28,10 @@ I comandi disponibili sono:
 .. image:: img/comandi_t_cut.png
   :align: center
   
-I comandi possono essere lanciati con due modalità:
+I comandi possono essere lanciati con tre modalità:
 
 * cliccando sul comando desiderato dalla lista dei comandi che si ottiene con il pulsante **Menu**
+* cliccando sul comando desiderato dalla lista dei comandi che si ottiene digitando il simbolo **/**
 * digitando il nome del comando preceduto da simbolo slash **/**
 
 .. image:: img/comandi_t2.png
@@ -43,6 +44,26 @@ Funzioni Telegram
 
 Registra Presenza
 ''''''''''''''''''''''''''''''''''''''''''''''
+La funzionalità **Registra presenza** consente all'utente di indicare l'inizio e la fine del proprio turno. 
+
+Il comando **/registra_presenza**, disponibile nella lista dei comandi, consente di indicare l'inizio del proprio turno. Il comando restituisce all'utente un messaggio in cui viene chiesto di specificare la durata del turno, l'utente dovrà quindi cliccare sul bottone corrispondente al numero di ore del turno
+
+.. image:: img/presenza_durata.png
+  :align: center
+  
+Una volta indicata la durata del proprio turno, il bot restituisce un messaggio di avvenuta registrazione della presenza e l'indicazione dell'orario presunto di fine turno
+
+.. image:: img/presenza_ok.png
+  :align: center
+  
+.. warning:: Qualora fosse già stata indicata la propria presenza tramite il comando **/registra_presenza**, il bot restituirà un messaggio che informa l'utente che la presenza è già stata registrata.
+
+Il comando **/registra_uscita**, disponibile nella lista dei comandi, consente di indicare la fine del proprio turno. Il comando restituisce all'utente un messaggio in cui viene chiesto di confermare la chiusura del turno
+
+.. image:: img/registra_uscita.png
+  :align: center
+
+.. warning:: Qualora fosse già stata indicata la fine del proprio turno tramite il comando **/registra_uscita**, il bot restituirà un messaggio che informa l'utente che non risulta a sistema un tunro attivo.
 
 
 Accettazione/rifiuto incarichi interni, incarichi e presidi
