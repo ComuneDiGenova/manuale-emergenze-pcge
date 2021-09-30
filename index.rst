@@ -19,5 +19,6 @@ Contenuti:
   altro
   notifiche
   utenti
+  telegram
 
 
