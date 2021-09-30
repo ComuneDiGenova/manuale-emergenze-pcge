@@ -92,10 +92,11 @@ La presenza degli operatori è visibile anche sulla pagina web **Gestione squadr
 Accettazione/rifiuto incarichi interni, presidi e incarichi
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Durante la gestione di una segnalazione registrata sul Sistema Emergenze, l'ente che ne detiene la titolarità ha la possibilità di assegnare incarichi interni e presidi fissi alle squadre attivabile o incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. Questa funzione gestisce inoltre anche l'accettazione da parte della squadra dei presidi mobili.
+Durante la gestione di una segnalazione registrata sul Sistema Emergenze, l'ente che ne detiene la titolarità ha la possibilità di assegnare incarichi interni e presidi fissi alle squadre attivabile o incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. 
 
-* Quando viene assegnato un incarico interno o un presidio il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato l'incarico/presidio. In questo caso è possibile per gli operatori gestire l'accettazione o il rifiuto dell'incarico/presidio direttamente dal bot Telegram.
-* Quando viene assegnato un incarico il Sistema Emergenze **invierà una notifica sul bot Telegram** ai contatti registrati a sistema per la notifica degli incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. In questo caso viene solamente inviata la notifica e **non è possibile** per gli operatori gestire l'accettazione o il rifiuto dell'incarico direttamente dal bot Telegram.
+* Quando viene assegnato un **incarico interno o un presidio fisso** il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato l'incarico interno/presidio fisso. In questo caso è possibile per gli operatori gestire l'accettazione o il rifiuto dell'incarico/presidio direttamente dal bot Telegram.
+* Quando viene assegnato un **presidio mobile** il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato il presidio mobile. In questo caso viene solamente inviata la notifica e **non è possibile** per gli operatori gestire l'accettazione del presidio direttamente dal bot Telegram.
+* Quando viene assegnato un **incarico** il Sistema Emergenze **invierà una notifica sul bot Telegram** ai contatti registrati a sistema per la notifica degli incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. In questo caso viene solamente inviata la notifica e **non è possibile** per gli operatori gestire l'accettazione o il rifiuto dell'incarico direttamente dal bot Telegram.
 
 Accettazione/rifiuto incarichi interni
 ***************************************
