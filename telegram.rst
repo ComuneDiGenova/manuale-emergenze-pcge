@@ -2,10 +2,10 @@ Funzionalità Telegram
 ==========================
 
 Per utilizzare le funzionalità del Bot Telegram **Gestione emergenze comune di Genova** (@emergenze_genova_bot) è necessario essere un utente del Sistema Emergenze ed avere un profilo assegnato. 
-Inoltre è necessario attivare le notifiche Telegram secondo quanto indicato 
+Inoltre è necessario attivare le notifiche Telegram secondo quanto indicato nel capitolo `Profilo utente e attivazione notifiche telegram <accesso.html#profilo-utente-e-attivazione-notifiche-telegram>`__
 
 
-Creazione e composizione delle squadre
+Comandi Telegram
 -------------------------------------------
 Tramite questa scheda è possibile visualizzare e gestire le varie squadre.
 Le squadre possono essere composte da personale esterno, preventivamente registrato a sistema
@@ -17,36 +17,24 @@ modificarne la composizione.
 
 .. image:: img/gestione_squadre.PNG
 
+Funzioni Telegram
+-------------------------------------------
 
-Edit delle squadre
+Rileva Presenza
 ''''''''''''''''''''''''''''''''''''''''''''''
-E' possibile aggiungere ed eliminare componenti tramite gli appositi tasti così
-come definire un **capo squadra**, che sarà la persona che potrà essere contattata,
-almeno in via preventiva, dalle sedi centrali. A tal fine è importante aggiungere
-i riferimenti, specialmente telefonici, almeno del capo squadra.
-Per il personale esterno i dati di contatto sono prelevati direttamente dal
-database interno al *Sistema di Gestione Emergenze* mentre per i dipendenti
-comunali vanno aggiunti a sistema tramite gli appositi tasti.
-I dati possono essere aggiornati e modificati in ogni momento.
+
+
+Accettazione/rifiuto incarichi interni, incarichi e presidi
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 
 
-Stato delle squadre
+Inserimento lettura mire
 '''''''''''''''''''''''''''''''''''''''''''''''
-Ogni squadra può essere:
 
-* **a disposizione** qualora il personale che la compone sia effettivamente in servizio e disponibile a ricevere incarichi
-* **a riposo** qualora il personale che la compone non sia in servizio;
-* **in azione** qualora le sia stato assegnato un compito.
 
-**E' fondamentale l'aggiornamento costante delle informazioni sullo stato della squadra
-per garantire una corretta assegnazione dei compiti (incarichi interni/presidi) alla squadra stessa.**
-
-Lo stato *a disposizione* / *in azione* è aggiornato in automatico dal sistema
-ogni qualvolta vengano associati compiti
-alla squadra stessa.
-E' invece possibile modificare lo stato di una squadra tra *a disposizione* / *a riposo* tramite
-gli appositi tasti (stop / play) presenti in tabella.
+Comunicazioni con la centrale operativa
+'''''''''''''''''''''''''''''''''''''
 
 
 
