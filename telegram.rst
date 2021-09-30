@@ -12,6 +12,7 @@ Comandi Telegram
 Una volta installato il bot su Telegram è possibile accedere ai diversi comandi sviluppati. La lista dei comandi disponibili è accessibile cliccando sul pulsante **Menu** nella barra degli strumenti dell'applicazione Telegram
 
 .. image:: img/barra_t.png
+  :align: center
 
 I comandi disponibili sono:
 
@@ -25,7 +26,7 @@ I comandi disponibili sono:
 * **/comunicazione** - consente di inviare una comunicazione (testo ed eventuali immagini) relativa a una segnalazione alla Centrale operativa (per maggiori dettagli si veda il paragrafo :ref:`comunicazioni`)
 
 .. image:: img/comandi_t.png
-
+  :align: center
 
 Funzioni Telegram
 -------------------------------------------
