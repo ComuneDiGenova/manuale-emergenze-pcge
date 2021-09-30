@@ -1,7 +1,8 @@
-Gestione delle squadre
+Funzionalità Telegram
 ==========================
 
-
+Per utilizzare le funzionalità del Bot Telegram **Gestione emergenze comune di Genova** (@emergenze_genova_bot) è necessario essere un utente del Sistema Emergenze ed avere un profilo assegnato. 
+Inoltre è necessario attivare le notifiche Telegram secondo quanto indicato 
 
 
 Creazione e composizione delle squadre
