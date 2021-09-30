@@ -67,6 +67,28 @@ Il comando **/registra_uscita**, disponibile nella lista dei comandi, consente d
 
 A partire da 10 minuti prima dell'ora presunta di fine turno, l'utente riceverà una notifica automatica di remind sul bot per ricordare di utilizzare il comando **/registra_uscita** per indicare la fine del turno. L'utente riceverà una notifica ogni 10 minuti finchè non verrà chiuso il turno
 
+Ricezione della presenza sul Sistema Emergenze 
+*************************************************
+
+Quando l'operatore registra la propria presenza tramite il comando **/registra_presenza** del bot Telegram, i dettagli del suo turno saranno visibili sulla pagina web **Utenti presenti** del Sistema Emergenze. Oltre ai dati dell'utente (matricola/CF, nome e cognome) sono indicati anche data e ora di inizio turno e la durata del turno. Gli utenti del Sistema con profilo **Amministratore** possono dalla pagina **Utenti presenti**:
+
+* chiudere il turno di un operatore utilizzando il bottone **Termina Turno** 
+* modificare i dettagli (inizio e durata) del turno di un operatore utilizzando il bottone **Modifica Turno**
+
+.. image:: img/presenti.png
+  :align: center
+  
+Quando il turno di un operatore viene terminato, utilizzando il comando **/registra_uscita** del bot Telegram o dall'Amministratore di Sistema, i dettagli del turno appena chiuso saranno visibili nella pagina web **Storico utenti presenti** del Sistema Emergenze.
+
+La presenza degli operatori è visibile anche sulla pagina web **Gestione squadre**. Nella tabella delle squadre attive o attivabili, la colonna **Telegram** indica se il Capo squadra ha registrato la propria presenza:
+
+* icona X arancione = è stato assegnato un Capo squadra ma non ha registrato la propria presenza
+* icona V verde = è stato assegnato un Capo squadra e ha registrato la propria presenza
+* - = non è stato assegnato un Capo squadra
+
+.. image:: img/presenza_squadre.png
+  :align: center
+
 Accettazione/rifiuto incarichi interni, incarichi e presidi
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
