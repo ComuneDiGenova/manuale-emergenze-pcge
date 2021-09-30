@@ -25,7 +25,7 @@ I comandi disponibili sono:
 * **/inserisci_mira** - consente di inserire il valore della lettura di una mira (per maggiori dettagli si veda il paragrafo :ref:`lettura-mira`)
 * **/comunicazione** - consente di inviare una comunicazione (testo ed eventuali immagini) relativa a una segnalazione alla Centrale operativa (per maggiori dettagli si veda il paragrafo :ref:`comunicazioni`)
 
-.. image:: img/comandi_t.png
+.. image:: img/comandi_t_cut.png
   :align: center
   
 I comandi possono essere lanciati con due modalità:
