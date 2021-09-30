@@ -89,9 +89,46 @@ La presenza degli operatori è visibile anche sulla pagina web **Gestione squadr
 .. image:: img/presenza_squadre.png
   :align: center
 
-Accettazione/rifiuto incarichi interni, incarichi e presidi
+Accettazione/rifiuto incarichi interni, presidi e incarichi
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+Durante la gestione di una segnalazione registrata sul Sistema Emergenze, l'ente che ne detiene la titolarità ha la possibilità di assegnare incarichi interni e presidi fissi alle squadre attivabile o incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. Questa funzione gestisce inoltre anche l'accettazione da parte della squadra dei presidi mobili.
+
+* Quando viene assegnato un incarico interno o un presidio il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato l'incarico/presidio. 
+* Quando viene assegnato un incarico il Sistema Emergenze **invierà una notifica sul bot Telegram** ai contatti registrati a sistema per la notifica degli incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. 
+
+Accettazione/rifiuto incarichi interni
+***************************************
+
+In caso di assegnazione di un incarico interno a una squadra, tutti gli operatori facenti parte della squadra riceveranno una notifica di assegnazione incarico sul bot Telegram con indicato:
+
+* il numero della segnalazione a cui fa riferimento l'incarico
+* il nome della squadra di appartenenza
+* i dettagli dell'incarico (breve descrizione operativa)
+* le istruzioni per accettare o rifiutare l'incarico
+* una mappa con la geolocalizzazione dell'incarico
+
+.. image:: img/notifica_inc_int.png
+  :align: center
+  
+
+L'operatore può **accettare** l'incarico con due modalità:
+
+* cliccando sul comando **/accetto** direttamente dal messaggio di notifica ricevuto
+* digitando il comando **/accetto** nell'area di testo di Telegram
+
+La funzione di accettazione dell'incarico assegnato è composta dai seguenti step:
+
+* comando **/accetto** - restiruisce un messaggio sul bot in cui viene chiesto all'operatore di indicare tra quanti minuti sarà sul posto.
+* invio del messaggio da parte dell'operatore con indicazione il numero di minuti espresso in cifre (es. 20). **NB.** Se il numero di minuti viene espresso in caratteri (es. venti) il bot restituirà un messaggio di errore e sarà necessario indicare nuovamente i minuti in cifre.
+* indicazione da parte dell'operatore se la presa in carico è regolare o parziale cliccando sui bottoni che compaiono nella barra degli strumenti di telegram
+
+Conclusi questi tre step, l'operatore riceverà un messaggio di riepilogo con quanto indicato negli step recedenti e le istruzioni per chiudere l'incarico una volta completato
+
+.. image:: img/accetto_inc_int.png
+  :align: center
+  
+.. warning:: Per sua natura il bot Telegram consente di eseguire le sole operazioni che sono state sviluppate per il bot stesso, è quindi fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
 
 .. _lettura-mira:
 
