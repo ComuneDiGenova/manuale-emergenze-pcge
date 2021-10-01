@@ -4,7 +4,7 @@ Funzionalità Telegram
 Per utilizzare le funzionalità del Bot Telegram **Gestione emergenze comune di Genova** (@emergenze_genova_bot) è necessario essere un utente del Sistema Emergenze ed avere un profilo assegnato. 
 Inoltre è necessario attivare le notifiche Telegram secondo quanto indicato nel capitolo `Profilo utente e attivazione notifiche telegram <accesso.html#profilo-utente-e-attivazione-notifiche-telegram>`__
 
-Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, ad esempio in caso di apertura di un nuovo evento, di assegnazione di un incoarico/presidio alla propria squadra, ecc. Inoltre è anche possibile interagire direttamente con il Sistema Emergenze ad esempio segnalando la propria presenza alla Centrale Operativa, accettando o rifiutando un incarico assegnato alla propria squadra, inserendo la lettura di una mira o inviando una comunicazione alla Centrale.
+Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, ad esempio in caso di apertura di un nuovo evento, di assegnazione di un incarico/presidio alla propria squadra, ecc. Inoltre è anche possibile interagire direttamente con il Sistema Emergenze ad esempio segnalando la propria presenza alla Centrale Operativa, accettando o rifiutando un incarico assegnato alla propria squadra, inserendo la lettura di una mira o inviando una comunicazione alla Centrale.
 
 
 Comandi Telegram
@@ -84,7 +84,7 @@ La presenza degli operatori è visibile anche sulla pagina web **Gestione squadr
 
 * icona X arancione = è stato assegnato un Capo squadra ma non ha registrato la propria presenza
 * icona V verde = è stato assegnato un Capo squadra e ha registrato la propria presenza
-* - = non è stato assegnato un Capo squadra
+* '-' = non è stato assegnato un Capo squadra
 
 .. image:: img/presenza_squadre.png
   :align: center
@@ -92,11 +92,13 @@ La presenza degli operatori è visibile anche sulla pagina web **Gestione squadr
 Accettazione/rifiuto incarichi interni, presidi e incarichi
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Durante la gestione di una segnalazione registrata sul Sistema Emergenze, l'ente che ne detiene la titolarità ha la possibilità di assegnare incarichi interni e presidi fissi alle squadre attivabile o incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. Questa funzione gestisce anche l'accettazione o il rifiuto di presidi fissi assegnati a una squdara indipendentemente da una segnalazione.
+Durante la gestione di una segnalazione registrata sul Sistema Emergenze, l'ente che ne detiene la titolarità ha la possibilità di assegnare incarichi interni e presidi fissi alle squadre attivabili o incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. Questa funzione gestisce anche l'accettazione o il rifiuto di presidi fissi assegnati a una squdara indipendentemente da una segnalazione.
 
 * Quando viene assegnato un **incarico interno o un presidio fisso** il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato l'incarico interno/presidio fisso. In questo caso è possibile per gli operatori gestire l'accettazione o il rifiuto dell'incarico/presidio direttamente dal bot Telegram.
 * Quando viene assegnato un **presidio mobile** il Sistema Emergenze **invierà una notifica sul bot Telegram** a tutti gli operatori facenti parte della **squadra** a cui è stato assegnato il presidio mobile. In questo caso viene solamente inviata la notifica e **non è possibile** per gli operatori gestire l'accettazione del presidio direttamente dal bot Telegram.
 * Quando viene assegnato un **incarico** il Sistema Emergenze **invierà una notifica sul bot Telegram** ai contatti registrati a sistema per la notifica degli incarichi a Direzioni, Municipi, Distretti di PM e Unità Operative Esterne. In questo caso viene solamente inviata la notifica e **non è possibile** per gli operatori gestire l'accettazione o il rifiuto dell'incarico direttamente dal bot Telegram.
+
+.. note:: E' buona norma che l'accettazione/rifiuto dell'incarico o presidio venga gestita via Telegram dal Capo squadra. In ogni caso qualora un componente accettasse l'incarico/presidio, non sarà possibile per gli altri componenti della squadra rifiutarlo o accettarlo nuovamente.
 
 Accettazione/rifiuto incarichi interni
 ***************************************
@@ -129,7 +131,7 @@ Conclusi questi tre step, l'operatore riceverà un messaggio di riepilogo con qu
 .. image:: img/accetto_inc_int.png
   :align: center
   
-.. warning:: Per sua natura il bot Telegram consente di eseguire le sole operazioni che sono state sviluppate per il bot stesso, è quindi fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
+.. warning:: E' fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
 
 L'operatore può successivamente **chiudere** l'incarico con due modalità:
 
@@ -193,8 +195,6 @@ Conclusi questi due step, l'operatore riceverà un messaggio di riepilogo con qu
 .. image:: img/accetto_pres_fis.png
   :align: center
   
-.. warning:: Per sua natura il bot Telegram consente di eseguire le sole operazioni che sono state sviluppate per il bot stesso, è quindi fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
-
 L'operatore può successivamente **chiudere** il presidio con due modalità:
 
 * cliccando sul comando **/stop** direttamente dal messaggio di notifica ricevuto terminata la funzione di accettazione del presidio
@@ -216,6 +216,30 @@ La funzione di chiusura del presidio assegnato è composta dai seguenti step:
 
 Inserimento lettura mire
 '''''''''''''''''''''''''''''''''''''''''''''''
+
+La funzionalità **Inserimento lettura mira** consente di inserire le letture delle mire sui corsi d'acqua.
+
+.. warning:: Il comando **/inserisci_mira** può essere utilizzato solo nei casi in cui è attiva una **Fase Operativa Comunale (FOC)** e solo dai componenti della squadre a cui sono assegnati dei **presidi mobili**. Qualora non fosse verificata una di queste condizioni, il comando restiuirà un messaggio di errore.  
+
+Il comando **/inserisci_mira**, disponibile dalla lista dei comandi, restituisce l'elenco delle mire relative al presidio mobile (percorso) assegnato alla squadra. L'operatore dovrà quindi cliccare sulla mira per cui vuole inserire la lettura.
+
+.. image:: img/mira_elenco.png
+  :align: center
+  
+Una volta indicata la mira, il bot restituisce un messaggio in cui si chiede all'operatore di inserire la lettura. Per inerire la lettura sono disponibili 3 bottoni (verde, giallo e rosso) reggiungibili cliccando sul pulsante evidenziato in verde nell'immagine sotto
+
+.. image:: img/mire_tool.png
+  :align: center
+  
+L'operatore dovrà quindi cliccare sul bottone corrispondente alla lettura della mira scelta 
+
+.. image:: img/mire_valore.png
+  :align: center
+
+Una volta indicata la lettura della mira, il bot restituisce un messaggio di riepilogo dei dati inseriti e la lettura così inviata sarà immediatamente visibile nella pagine web **Mire sui corsi d'acqua** del Sistema emergenze
+
+.. image:: img/mire_web.png
+  :align: center
 
 .. _comunicazioni:
 
