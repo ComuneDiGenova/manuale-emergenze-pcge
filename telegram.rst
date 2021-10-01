@@ -6,6 +6,8 @@ Inoltre è necessario attivare le notifiche Telegram secondo quanto indicato nel
 
 Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, ad esempio in caso di apertura di un nuovo evento, di assegnazione di un incarico/presidio alla propria squadra, ecc. Inoltre è anche possibile interagire direttamente con il Sistema Emergenze ad esempio segnalando la propria presenza alla Centrale Operativa, accettando o rifiutando un incarico assegnato alla propria squadra, inserendo la lettura di una mira o inviando una comunicazione alla Centrale.
 
+.. warning:: E' fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi richiesti dai comandi e nell'ortdine indicato per poterli eseguire correttamente. Qualora non venissero esguiti tutti gli step, il comando non viene terminato e quindi gli altri comandi/funzioni del bot non potranno essere utilizzati fino al completamento del comando.
+
 
 Comandi Telegram
 -------------------------------------------
@@ -109,7 +111,7 @@ In caso di assegnazione di un incarico interno a una squadra, tutti gli operator
 * il nome della squadra di appartenenza
 * i dettagli dell'incarico (breve descrizione operativa)
 * le istruzioni per accettare o rifiutare l'incarico
-* una mappa con la geolocalizzazione dell'incarico
+* una mappa con la geolocalizzazione dell'incarico (cliccando sulla mappa si viene reindirazzati allo strumento per la ricerca delle indicazioni stradali)
 
 .. image:: img/notifica_inc_int.png
   :align: center
@@ -131,8 +133,6 @@ Conclusi questi tre step, l'operatore riceverà un messaggio di riepilogo con qu
 .. image:: img/accetto_inc_int.png
   :align: center
   
-.. warning:: E' fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi sopra indicati e nell'ortdine indicato per poter eseguire correttamente la funzione di accettazione dell'incarico. Qualora non venissero esguiti tutti gli step, la funzione non viene terminata e quindi l'accettazione non viene registrata dal sistema e tutti gli altri comandi/funzioni del bot non potranno essere utilòizzati fino al completamento della funzione di accettazione dell'incarico.
-
 L'operatore può successivamente **chiudere** l'incarico con due modalità:
 
 * cliccando sul comando **/chiudo** direttamente dal messaggio di notifica ricevuto terminata la funzione di accettazione dell'incarico
@@ -174,7 +174,7 @@ In caso di assegnazione di un presidio fisso a una squadra, tutti gli operatori 
 * il nome della squadra di appartenenza
 * i dettagli del presidio (breve descrizione operativa)
 * le istruzioni per accettare il presidio (nel caso dei presidi non è previsto il rifiuto)
-* una mappa con la geolocalizzazione del presidio
+* una mappa con la geolocalizzazione del presidio (cliccando sulla mappa si viene reindirazzati allo strumento per la ricerca delle indicazioni stradali)
 
 .. image:: img/notifica_pres_fis.png
   :align: center
