@@ -246,5 +246,32 @@ Una volta indicata la lettura della mira, il bot restituisce un messaggio di rie
 Comunicazioni con la centrale operativa
 '''''''''''''''''''''''''''''''''''''
 
+La funzionalità **Comunicazioni con la centrale operativa** consente di inviare comunicazioni (testo e immagini) alla Centrale Operativa che recepirà tali comunicazioni tramite il portale web di Sistema Emergenze.
 
+.. warning:: Il comando **/comunicazione** può essere utilizzato solo dai componenti della squadre a cui sono assegnati dei **incarichi interni, presidi fissi (relativi a una segnalazione), o presidi mobili**. Qualora non fosse verificata una di queste condizioni, il comando restiuirà un messaggio di errore.  
 
+Il comando **/comunicazione**, disponibile dalla lista dei comandi, restituisce un messaggio in cui si chiede all'operatore di inserire il testo della comunicazione. L'operatore dovrà quindi digitare il testo e inviarlo. Una volta inviato il testo, il bot restituisce un messaggio in cui si chiede se si vuole inserire una foto 
+
+La funzione di comunicazione con la centrale operativa è composta dai seguenti step:
+
+* comando **/comunicazione** -  restituisce un messaggio in cui si chiede all'operatore di inserire il testo della comunicazione.
+* invio del messaggio da parte dell'operatore con il testo
+* indicazione da parte dell'operatore se desidera allegare un'immagine o inviare il solo testo inserito cliccando sui bottoni che compaiono nella barra degli strumenti di telegram. 
+
+.. image:: img/comunicazione.png
+  :align: center
+
+Se viene scelto il tasto **Foto** l'operatore dovrà scattare una foto dal suo dispositivo o sceglierne una dalla gallerie immagini del dispositivo. Entrambe le opzioni sono raggiungibili cliccando sul tasto evidenziato in verde nell'immagine sotto
+
+.. image:: img/comunicazione_foto.png
+  :align: center
+  
+Conclusi questi tre step, l'operatore riceverà un messaggio conferma di avvenuto invio della comunicazione
+
+.. image:: img/comunicazione_invio.png
+  :align: center
+
+La comunicazione sarà quindi immediatamente visibile sul portale web Sistema Emergenze nella pagina relativa all'incarico interno, presidio fisso o mobile.
+
+.. image:: img/comunicazione_web.png
+  :align: center
