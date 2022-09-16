@@ -1,7 +1,7 @@
-Funzionalità Telegram
-==========================
+Funzionalità BOT Telegram Gestione Emergenze Comune di Genova
+=============================================================
 
-Per utilizzare le funzionalità del Bot Telegram **Gestione emergenze comune di Genova** (@emergenze_genova_bot) è necessario essere un utente del Sistema Emergenze ed avere un profilo assegnato. 
+Per utilizzare le funzionalità del Bot Telegram **Gestione emergenze Comune di Genova** (@emergenze_genova_bot) è necessario essere un utente del Sistema Emergenze ed avere un profilo assegnato. 
 Inoltre è necessario attivare le notifiche Telegram secondo quanto indicato nel capitolo `Profilo utente e attivazione notifiche telegram <accesso.html#profilo-utente-e-attivazione-notifiche-telegram>`__
 
 Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, ad esempio in caso di apertura di un nuovo evento, di assegnazione di un incarico/presidio alla propria squadra, ecc. Inoltre è anche possibile interagire direttamente con il Sistema Emergenze ad esempio segnalando la propria presenza alla Centrale Operativa, accettando o rifiutando un incarico assegnato alla propria squadra, inserendo la lettura di una mira o inviando una comunicazione alla Centrale.
@@ -275,3 +275,37 @@ La comunicazione sarà quindi immediatamente visibile sul portale web Sistema Em
 
 .. image:: img/comunicazione_web.png
   :align: center
+  
+Funzionalità BOT Telegram Convocazione COC Genova
+=================================================
+
+Per utilizzare le funzionalità del Bot Telegram **Convocazione COC Genova** (@emergenze_genova_bot) non è necessario essere un utente del Sistema Emergenze con un profilo assegnato, ma è necessario essere registrato a sistema con emembro del COC. 
+
+Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, ad esempio in caso di emanazione di un'allerta e in caso di convocazione del COC.
+
+.. warning:: E' fondamentale per il corretto funzionamento del bot rispettare e seguire tutti i passaggi richiesti dai comandi e nell'ortdine indicato per poterli eseguire correttamente. Qualora non venissero esguiti tutti gli step, il comando non viene terminato e quindi gli altri comandi/funzioni del bot non potranno essere utilizzati fino al completamento del comando.
+
+Notifica di emanazione di un'allerta
+--------------------------------------
+
+* Invio Bollettino
+* Conferma di lettura
+* remind invio conferma di lettura
+
+Notifica di Convocazione del COC
+----------------------------------------
+
+* Invio convocazione COC da Sistema Emergenze
+* Conferma di lettura
+* remind invio conferma di lettura
+
+Convocazione del COC da Sistema Emergenze e gestione dello storico
+--------------------------------------------------------------------
+
+* pagina convocazione COC 
+  * tabella ultima convocazione con visualizzazione delle conferme di lettura
+  * pulsante per invio convocazione
+* pagina storico convocazione COC
+
+Gestione utenti del COC da Sistema Emergenze
+------------------------------------------------
