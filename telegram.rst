@@ -276,7 +276,7 @@ La comunicazione sarà quindi immediatamente visibile sul portale web Sistema Em
 .. image:: img/comunicazione_web.png
   :align: center
   
-Funzionalità BOT Telegram Convocazione COC Genova
+Funzionalità BOT Telegram Convocazione COC Genova (Paragrafo in fase di compilazione)
 =================================================
 
 Per utilizzare le funzionalità del Bot Telegram **Convocazione COC Genova** (@emergenze_genova_bot) non è necessario essere un utente del Sistema Emergenze con un profilo assegnato, ma è necessario essere registrato a sistema con emembro del COC. 
