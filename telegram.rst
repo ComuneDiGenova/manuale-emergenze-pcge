@@ -303,7 +303,7 @@ Sistema Emergenze riceve in tempo quasi reale i bollettini emessi da ARPAL (http
   :align: center
 
 |
-L'utente deve cliccare sul pulsante ok mostrato nell'immagine sopra per inviare a Sistema Emergenze la conferma di lettura del messaggio. 
+L'utente deve cliccare sul pulsante **OK** mostrato nell'immagine sopra per inviare a Sistema Emergenze la conferma di lettura del messaggio. 
 
 .. warning:: Qualora l'utente non invii la conferma di lettura, riceverà **ogni 5 minuti** una notifica di remind di invio della conferma di lettura 
 .. image:: img/notifica.png
@@ -324,10 +324,10 @@ Tramite un apposito tool sviluppato su Sistema Emergenze (si veda sezione dedica
   :align: center
 
 |
-L'utente deve cliccare sul pulsante ok mostrato nell'immagine sopra per inviare a Sistema Emergenze la conferma di lettura del messaggio. 
+L'utente deve cliccare sul pulsante **OK** mostrato nell'immagine sopra per inviare a Sistema Emergenze la conferma di lettura del messaggio. 
 
 .. warning:: Qualora l'utente non invii la conferma di lettura, riceverà **ogni 5 minuti** una notifica di remind di invio della conferma di lettura 
-.. image:: img/notifica.png
+.. image:: img/notifica_conv.png
   :align: center
 
 |
