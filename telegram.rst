@@ -236,6 +236,7 @@ L'operatore dovrà quindi cliccare sul bottone corrispondente alla lettura della
 .. image:: img/mire_valore.png
   :align: center
 
+|
 Una volta indicata la lettura della mira, il bot restituisce un messaggio di riepilogo dei dati inseriti e la lettura così inviata sarà immediatamente visibile nella pagine web **Mire sui corsi d'acqua** del Sistema emergenze
 
 .. image:: img/mire_web.png
