@@ -308,6 +308,7 @@ L'utente deve cliccare sul pulsante ok mostrato nell'immagine sopra per inviare 
 .. image:: img/notifica.png
   :align: center
 
+|
 I dettagli relativi all'invio del bollettino e della relativa conferma di lettura da parte dell'utente, sono visibili agli utenti amministratori tramite alle pagine web dedicate su Sistema Emergenze (si veda sezione dedicata :ref:`convocazione`)
 
 Notifica di Convocazione del COC
