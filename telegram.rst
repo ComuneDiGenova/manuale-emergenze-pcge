@@ -310,14 +310,28 @@ L'utente deve cliccare sul pulsante ok mostrato nell'immagine sopra per inviare 
   :align: center
 
 |
-I dettagli relativi all'invio del bollettino e della relativa conferma di lettura da parte dell'utente, sono visibili agli utenti amministratori tramite alle pagine web dedicate su Sistema Emergenze (si veda sezione dedicata :ref:`convocazione`)
+I dettagli relativi all'invio del bollettino e della relativa conferma di lettura da parte dell'utente, sono visibili agli utenti amministratori tramite le pagine web dedicate su Sistema Emergenze (si veda sezione dedicata :ref:`convocazione`)
 
 Notifica di Convocazione del COC
 ----------------------------------------
 
-* Invio convocazione COC da Sistema Emergenze
-* Conferma di lettura
-* remind invio conferma di lettura
+Tramite un apposito tool sviluppato su Sistema Emergenze (si veda sezione dedicata :ref:`convocazione`), gli amministratori di sistema possono inviare la convocazione del COC. All'invio della convocazione, viene quindi inviata una notifica sul BOT Telegram a tutti i componenti del COC Direttivo. Il messaggio di notifica contiene:
+
+* Il testo del messaggio inviato dagli amministratori di sistema tramite l'apposito tool di Sistema Emergenze
+* il bottone per inviare al Sistema la conferma di lettura del messaggio 
+
+.. image:: img/messaggio_conv.png
+  :align: center
+
+|
+L'utente deve cliccare sul pulsante ok mostrato nell'immagine sopra per inviare a Sistema Emergenze la conferma di lettura del messaggio. 
+
+.. warning:: Qualora l'utente non invii la conferma di lettura, riceverà **ogni 5 minuti** una notifica di remind di invio della conferma di lettura 
+.. image:: img/notifica.png
+  :align: center
+
+|
+I dettagli relativi all'invio della convocazione e della relativa conferma di lettura da parte dell'utente, sono visibili agli utenti amministratori tramite le pagine web dedicate su Sistema Emergenze (si veda sezione dedicata :ref:`convocazione`)
 
 .. _convocazione: 
 
