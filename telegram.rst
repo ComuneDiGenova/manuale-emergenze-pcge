@@ -283,7 +283,7 @@ La comunicazione sarà quindi immediatamente visibile sul portale web Sistema Em
 Funzionalità BOT Telegram Convocazione COC Genova (Paragrafo in fase di compilazione)
 =================================================
 
-Per utilizzare le funzionalità del Bot Telegram **Convocazione COC Genova** (@emergenze_genova_bot) non è necessario essere un utente del Sistema Emergenze con un profilo assegnato, ma è necessario essere registrato a sistema con emembro del COC. 
+Per utilizzare le funzionalità del Bot Telegram **Convocazione COC Genova** (@emergenze_genova_bot) non è necessario essere un utente del Sistema Emergenze con un profilo assegnato, ma è necessario essere registrato a sistema con membro del COC Direttivo. 
 
 Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, ad esempio in caso di emanazione di un'allerta e in caso di convocazione del COC.
 
@@ -292,9 +292,22 @@ Tramite il bot Telegram è possibile ricevere notifiche dal Sistema Emergenze, a
 Notifica di emanazione di un'allerta
 --------------------------------------
 
-* Invio Bollettino
-* Conferma di lettura
-* remind invio conferma di lettura
+Sistema Emergenze riceve in tempo quasi reale i bollettini emessi da ARPAL (https://allertaliguria.regione.liguria.it/). All'emissione del bollettino, viene inviata da Sistema Emergenze una notifica sul BOT Telegram a tutti i componenti del COC Direttivo. Il messaggio di notifica contiene:
+
+* il link pe la consultazione del bollettino appena emesso
+* la comunicazione dell'emanazione dell'allerta
+* il bottone per inviare al Sistema la conferma di lettura del messaggio 
+
+.. image:: img/invio_bollettino.png
+  :align: center
+
+L'utente deve cliccare sul pulsante ok mostrato nell'immagine sopra per inviare a Sistema Emergenze la conferma di lettura del messaggio. 
+
+.. warning:: Qualora l'utente non invii la conferma di lettura, riceverà **ogni 5 minuti** una notifica di remind di invio della conferma di lettura 
+.. image:: img/notifica.png
+  :align: center
+
+I dettagli relativi all'invio del bollettino e della relativa conferma di lettura da parte dell'utente, sono visibili agli utenti amministratori tramite alle pagine web dedicate su Sistema Emergenze (si veda sezione dedicata :ref:`convocazione`)
 
 Notifica di Convocazione del COC
 ----------------------------------------
@@ -303,6 +316,7 @@ Notifica di Convocazione del COC
 * Conferma di lettura
 * remind invio conferma di lettura
 
+.. _convocazione: 
 Convocazione del COC da Sistema Emergenze e gestione dello storico
 --------------------------------------------------------------------
 
