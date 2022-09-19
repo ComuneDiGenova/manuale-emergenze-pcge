@@ -276,7 +276,7 @@ La comunicazione sarà quindi immediatamente visibile sul portale web Sistema Em
 .. image:: img/comunicazione_web.png
   :align: center
   
-  
+ .. _botcoc: 
   
 Funzionalità BOT Telegram Convocazione COC Genova (Paragrafo in fase di compilazione)
 =================================================
