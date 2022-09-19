@@ -317,6 +317,7 @@ Notifica di Convocazione del COC
 * remind invio conferma di lettura
 
 .. _convocazione: 
+
 Convocazione del COC da Sistema Emergenze e gestione dello storico
 --------------------------------------------------------------------
 
