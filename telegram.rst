@@ -361,7 +361,7 @@ La tabella può essere esportata in formato pdf tramite l'apposito tool presente
 .. image:: img/ultima_conv.png
   :align: center
   
-Sempre dalla pagina con i dettagli dell'ultima Convocazione del COC Direttivo, è possibile per gli amministratori di sistema inviare il messaggio agli utenti facenti parte del COC Direttivo con i dettgali dell Convocazione (es. data, orario, luogo, eventuali link e informazioni utili), tramite l'apposito tool **Convocazione COC**. Cliccando sul pulsante compare un popup con un'area di testo in cui inserire il testo del messaggio, cliccando su **Invia** il messaggio verrà automaticamente inviato sul BOT Telegram Convocazione COC Genova.
+Sempre dalla pagina con i dettagli dell'ultima Convocazione del COC Direttivo, è possibile per gli amministratori di sistema inviare il messaggio agli utenti facenti parte del COC Direttivo con i dettgali dell Convocazione (es. data, orario, luogo, eventuali link e informazioni utili), tramite l'apposito tool **Convoca COC**. Cliccando sul pulsante compare un popup con un'area di testo in cui inserire il testo del messaggio, cliccando su **Invia** il messaggio verrà automaticamente inviato sul BOT Telegram Convocazione COC Genova.
  
 .. image:: img/convocazione_coc.png
   :align: center
