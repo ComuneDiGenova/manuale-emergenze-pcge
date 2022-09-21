@@ -369,6 +369,11 @@ Sempre dalla pagina con i dettagli dell'ultima Convocazione del COC Direttivo, Ã
   
 Storico Convocazioni
 ''''''''''''''''''''''''
+In questa pagina Ã¨ possibile concultare i dettagli delle precedenti convocazioni del COC inviate da Sistema Emergenze. La tabella contiene, per ogni utente facente parte del COC, i dettagli relativi a:
+
+* Nome, Cognome e Funzione ricoperta dall'utente
+* Data/ora di invio della notifica di emanazione dell'allerta con relativa conferma di lettura (simbolo verde/rosso a seconda che sia stata data conferma da parte dell'utente)
+* Data/ora di invio della Convocazione del COC con relativa conferma di lettura (simbolo verde/rosso a seconda che sia stata data conferma da parte dell'utente)
 
 .. image:: img/storico_conv.png
   :align: center
