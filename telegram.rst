@@ -370,5 +370,8 @@ Sempre dalla pagina con i dettagli dell'ultima Convocazione del COC Direttivo, Ã
 Storico Convocazioni
 ''''''''''''''''''''''''
 
+.. image:: img/storico_conv.png
+  :align: center
+
 Gestione utenti del COC da Sistema Emergenze
 ------------------------------------------------
