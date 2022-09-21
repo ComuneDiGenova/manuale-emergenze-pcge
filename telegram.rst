@@ -345,10 +345,30 @@ Gli utenti amministratori di sistema possono accedere a due pagine dedicate alla
 2. Storico Convocazioni
   * tabella contenete i dettagli relativi alle convocazioni precedenti
   
-* pagina convocazione COC 
-  * tabella ultima convocazione con visualizzazione delle conferme di lettura
-  * pulsante per invio convocazione
-* pagina storico convocazione COC
+.. image:: img/pagine_coc.png
+  :align: center
+
+Ultima Convocazione COC
+''''''''''''''''''''''''
+In questa pagina è possibile concultare i dettagli dell'ultima convocazione del COC inviata da Sistema Emergenze. La tabella contiene, per ogni utente facente parte del COC, i dettagli relativi a:
+
+* Nome, Cognome e Funzione ricoperta dall'utente
+* Data/ora di invio della notifica di emanazione dell'allerta con relativa conferma di lettura (simbolo verde/rosso a seconda che sia stata data conferma da parte dell'utente e data/ora di invio della conferma)
+* Data/ora di invio della Convocazione del COC con relativa conferma di lettura (simbolo verde/rosso a seconda che sia stata data conferma da parte dell'utente e data/ora di invio della conferma)
+
+La tabella può essere esportata in formato pdf tramite l'apposito tool presente nella pagina web.
+
+.. image:: img/ultima_conv.png
+  :align: center
+  
+Sempre dalla pagina con i dettagli dell'ultima Convocazione del COC Direttivo, è possibile per gli amministratori di sistema inviare il messaggio agli utenti facenti parte del COC Direttivo con i dettgali dell Convocazione (es. data, orario, luogo, eventuali link e informazioni utili), tramite l'apposito tool **Convocazione COC**
+ 
+.. image:: img/convocazione_coc.png
+  :align: center
+ 
+  
+Storico Convocazioni
+''''''''''''''''''''''''
 
 Gestione utenti del COC da Sistema Emergenze
 ------------------------------------------------
