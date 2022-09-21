@@ -337,7 +337,14 @@ I dettagli relativi all'invio della convocazione e della relativa conferma di le
 
 Convocazione del COC da Sistema Emergenze e gestione dello storico
 --------------------------------------------------------------------
+Gli utenti amministratori di sistema possono accedere a due pagine dedicate alla Convocazione del COC Direttivo su Sistema Emergenze. In particolare sono state implementate due pagine dedicate:
 
+1. Ultima Convocazione COC
+  * tabella contenete i dettagli relativi all'ultima convocazione inviata con indicazione delle relative conferme di lettura da parte degli utenti facenti parte del COC
+  * Tool per l'invio della Convocazione del COC Direttivo
+2. Storico Convocazioni
+  * tabella contenete i dettagli relativi alle convocazioni precedenti
+  
 * pagina convocazione COC 
   * tabella ultima convocazione con visualizzazione delle conferme di lettura
   * pulsante per invio convocazione
