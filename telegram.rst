@@ -380,3 +380,23 @@ In questa pagina è possibile concultare i dettagli delle precedenti convocazion
 
 Gestione utenti del COC da Sistema Emergenze
 ------------------------------------------------
+Gli utenti amministratori possono visualizzare, gestire, aggiungere/eliminare e modificare gli utenti registrati come componenti del COC Direttivo accedendo alla pagina dedicata **Componenti COC Direttivo** dal menù Gestione Utenti di Sistema Emergenze.
+
+.. image:: img/utenti_coc.png
+  :align: center
+
+|
+In questa pagina è possibile visualizzare l'elenco degli utenti facenti parte del COC Direttivo con relativa funzione ricoperta. E' inoltre possibile rimuovere l'utente cliccando sul corrispondente pulsante nella colonna **Rimuovi** o modificarne i dettagli cliccando sul corrispondente pulsante nella colonna **Edit**.
+
+Da questa pagina è inoltre possibile aggiungere nuovi utenti facenti parte del COC utilizzando il tool dedicato **Aggiungi Componente**. Cliccando il bottone, compare un popup con le informazioni relative al nuovo utente da inserire, tra cui ovviamente l'id Telegram dell'utente necessario affinche l'utente possa ricevere i messaggi sul BOT. 
+
+.. image:: img/new_user_coc.png
+  :align: center
+
+|
+L'utente può recuperare il proprio id Telegram, da comunicare all'amministratore di sistema, utilizzando il comando **/telegram_id** del BOT Convocazione COC Genova.
+Il comando può essere lanciato con tre modalità:
+
+* cliccando sul comando dalla lista dei comandi che si ottiene con il pulsante **Menu**
+* cliccando sul comando dalla lista dei comandi che si ottiene digitando il simbolo **/**
+* digitando il nome del comando preceduto da simbolo slash **/**
