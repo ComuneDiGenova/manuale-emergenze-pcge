@@ -382,7 +382,7 @@ Gestione utenti del COC da Sistema Emergenze
 ------------------------------------------------
 Gli utenti amministratori possono visualizzare, gestire, aggiungere/eliminare e modificare gli utenti registrati come componenti del COC Direttivo accedendo alla pagina dedicata **Componenti COC Direttivo** dal menù Gestione Utenti di Sistema Emergenze.
 
-.. image:: img/utenti_coc.png
+.. image:: img/utenti_COC.png
   :align: center
 
 |
